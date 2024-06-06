@@ -11,9 +11,9 @@ player_data_t select_player_preset(head_t *head, pars_data_t *name)
 {
     player_data_t player_data;
 
-    if (my_strcmp("Alex", name->values.kstr) == 0)
-        player_data = ALEX_PRESET;
-    if (my_strcmp("sebastian", name->values.kstr) == 0)
+    if (my_strcmp("Shane", name->values.kstr) == 0)
+        player_data = SHANE_PRESET;
+    if (my_strcmp("Sebastian", name->values.kstr) == 0)
         player_data = SEBASTIAN_PRESET;
     if (my_strcmp("Haley", name->values.kstr) == 0)
         player_data = HALEY_PRESET;

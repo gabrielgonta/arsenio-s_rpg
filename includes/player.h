@@ -133,9 +133,9 @@ static const stat_t GAME_ONE =
     300, 250, 120, 1, 500, 14, 8, 1.4
 };
 
-static const player_data_t ALEX_PRESET =
-{"Alex",
-"./assets/character/alex.png",
+static const player_data_t SHANE_PRESET =
+{"Shane",
+"./assets/character/Shane.png",
 2, 3,
 5,
 (sfVector2f){1000, 1000},
@@ -144,8 +144,8 @@ static const player_data_t ALEX_PRESET =
 };
 
 static const player_data_t SEBASTIAN_PRESET =
-{"sebastian",
-"./assets/character/sebastian.png",
+{"Sebastian",
+"./assets/character/Sebastian.png",
 2, 3,
 2.5,
 (sfVector2f){100, 100},

@@ -9,12 +9,12 @@
 
 void create_button_face(head_t *head, select_player_t *menu)
 {
-    create_button(head, ALEX_BUTTON, &menu->button);
-    menu->alex_button = get_last_button(menu->button);
-    sfSprite_setTextureRect(menu->alex_button->sprite, ALEX_FACE_RECT);
+    create_button(head, SHANE_BUTTON, &menu->button);
+    menu->Shane_button = get_last_button(menu->button);
+    sfSprite_setTextureRect(menu->Shane_button->sprite, SHANE_FACE_RECT);
     create_button(head, SEBASTIAN_BUTTON, &menu->button);
-    menu->sebastian_button = get_last_button(menu->button);
-    sfSprite_setTextureRect(menu->sebastian_button->sprite, SEBASTIAN_FACE_RECT);
+    menu->Sebastian_button = get_last_button(menu->button);
+    sfSprite_setTextureRect(menu->Sebastian_button->sprite, SEBASTIAN_FACE_RECT);
     create_button(head, HALEY_BUTTON, &menu->button);
     menu->haley_button = get_last_button(menu->button);
     sfSprite_setTextureRect(menu->haley_button->sprite, HALEY_FACE_RECT);
@@ -27,9 +27,9 @@ void create_object_appearance(head_t *head, select_player_t *menu)
 {
     object_t *object;
 
-    create_object(ALEX_APPEARANCE, &menu->object);
+    create_object(SHANE_APPEARANCE, &menu->object);
     object = get_last_object(menu->object);
-    sfSprite_setTextureRect(object->sprite, ALEX_APPEARANCE_RECT);
+    sfSprite_setTextureRect(object->sprite, SHANE_APPEARANCE_RECT);
     create_object(SEBASTIAN_APPEARANCE, &menu->object);
     object = get_last_object(menu->object);
     sfSprite_setTextureRect(object->sprite, SEBASTIAN_APPEARANCE_RECT);
@@ -45,9 +45,9 @@ void create_object_name(head_t *head, select_player_t *menu)
 {
     object_t *object;
 
-    create_object(ALEX_NAME, &menu->object);
+    create_object(SHANE_NAME, &menu->object);
     object = get_last_object(menu->object);
-    sfSprite_setTextureRect(object->sprite, ALEX_NAME_RECT);
+    sfSprite_setTextureRect(object->sprite, SHANE_NAME_RECT);
     create_object(SEBASTIAN_NAME, &menu->object);
     object = get_last_object(menu->object);
     sfSprite_setTextureRect(object->sprite, SEBASTIAN_NAME_RECT);
