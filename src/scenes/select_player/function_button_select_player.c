@@ -20,8 +20,8 @@ void launch_game(head_t *head, button_t *button)
         obj = init_player_data_json("Alex");
         writer_json(get_path_save(head), NULL, obj);
     }
-    if (button == head->scenes->select_player->elliot_button) {
-        obj = init_player_data_json("Elliot");
+    if (button == head->scenes->select_player->sebastian_button) {
+        obj = init_player_data_json("sebastian");
         writer_json(get_path_save(head), NULL, obj);
     }
     if (button == head->scenes->select_player->haley_button) {

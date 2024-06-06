@@ -143,9 +143,9 @@ static const player_data_t ALEX_PRESET =
 (sfIntRect){0, 0, 14, 29},
 };
 
-static const player_data_t ELLIOT_PRESET =
-{"Elliot",
-"./assets/character/elliot.png",
+static const player_data_t SEBASTIAN_PRESET =
+{"sebastian",
+"./assets/character/sebastian.png",
 2, 3,
 2.5,
 (sfVector2f){100, 100},

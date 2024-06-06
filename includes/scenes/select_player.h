@@ -17,7 +17,7 @@ typedef struct select_player_s {
     text_scrolling_t *text_scrolling;
     gen_ptcl_t *gen_ptcl;
     button_t *alex_button;
-    button_t *elliot_button;
+    button_t *sebastian_button;
     button_t *haley_button;
     button_t *maru_button;
 } select_player_t;
@@ -42,15 +42,15 @@ void quit_select_player(head_t *head, button_t *button);
 
 // RECT BUTTON //
 static const sfIntRect ALEX_FACE_RECT = {106, 1, 76, 75};
-static const sfIntRect ELLIOT_FACE_RECT = {106, 77, 76, 75};
+static const sfIntRect SEBASTIAN_FACE_RECT = {106, 77, 76, 75};
 static const sfIntRect HALEY_FACE_RECT = {106, 1, 76, 75};
 static const sfIntRect MARU_FACE_RECT = {106, 77, 76, 75};
 static const sfIntRect ALEX_APPEARANCE_RECT = {22, 16, 14, 29};
-static const sfIntRect ELLIOT_APPEARANCE_RECT = {23, 16, 14, 29};
+static const sfIntRect SEBASTIAN_APPEARANCE_RECT = {23, 16, 14, 29};
 static const sfIntRect HALEY_APPEARANCE_RECT = {21, 52, 16, 26};
 static const sfIntRect MARU_APPEARANCE_RECT = {21, 52, 14, 26};
 static const sfIntRect ALEX_NAME_RECT = {2, 437, 103, 19};
-static const sfIntRect ELLIOT_NAME_RECT = {2, 437, 103, 19};
+static const sfIntRect SEBASTIAN_NAME_RECT = {2, 437, 103, 19};
 static const sfIntRect HALEY_NAME_RECT = {2, 437, 103, 19};
 static const sfIntRect MARU_NAME_RECT = {2, 437, 103, 19};
 
@@ -61,8 +61,8 @@ static const button_data_t ALEX_BUTTON = {{400, 100}, {4, 4}, SQUARE,
 "", 20, (sfColor){255, 255, 255, 255},
 &launch_game};
 
-static const button_data_t ELLIOT_BUTTON = {{1216, 100}, {4, 4}, SQUARE,
-"assets/character/elliot.png",
+static const button_data_t SEBASTIAN_BUTTON = {{1216, 100}, {4, 4}, SQUARE,
+"assets/character/sebastian.png",
 "", 20, (sfColor){255, 255, 255, 255},
 "", 20, (sfColor){255, 255, 255, 255},
 &launch_game};
@@ -99,8 +99,8 @@ static const object_data_t ALEX_APPEARANCE =
 {4, 4}
 };
 
-static const object_data_t ELLIOT_APPEARANCE =
-{"assets/character/elliot.png",
+static const object_data_t SEBASTIAN_APPEARANCE =
+{"assets/character/sebastian.png",
 {1116, 200},
 {4, 4}
 };
@@ -123,8 +123,8 @@ static const object_data_t ALEX_NAME =
 {4, 4}
 };
 
-static const object_data_t ELLIOT_NAME =
-{"assets/character/elliot.png",
+static const object_data_t SEBASTIAN_NAME =
+{"assets/character/sebastian.png",
 {1162, 415},
 {4, 4}
 };
