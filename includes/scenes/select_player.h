@@ -56,13 +56,13 @@ static const sfIntRect MARU_NAME_RECT = {2, 437, 103, 19};
 
 // BUTTON PRESET //
 static const button_data_t SHANE_BUTTON = {{400, 100}, {4, 4}, SQUARE,
-"assets/character/Shane.png",
+"assets/character/shane.png",
 "", 20, (sfColor){255, 255, 255, 255},
 "", 20, (sfColor){255, 255, 255, 255},
 &launch_game};
 
 static const button_data_t SEBASTIAN_BUTTON = {{1216, 100}, {4, 4}, SQUARE,
-"assets/character/Sebastian.png",
+"assets/character/sebastian.png",
 "", 20, (sfColor){255, 255, 255, 255},
 "", 20, (sfColor){255, 255, 255, 255},
 &launch_game};
@@ -94,13 +94,13 @@ static const object_data_t BACKGROUND_SELECT_PLAYER =
 {0, 0}, {1, 1}};
 
 static const object_data_t SHANE_APPEARANCE =
-{"assets/character/Shane.png",
+{"assets/character/shane.png",
 {300, 200},
 {4, 4}
 };
 
 static const object_data_t SEBASTIAN_APPEARANCE =
-{"assets/character/Sebastian.png",
+{"assets/character/sebastian.png",
 {1116, 200},
 {4, 4}
 };
@@ -118,13 +118,13 @@ static const object_data_t MARU_APPEARANCE =
 };
 
 static const object_data_t SHANE_NAME =
-{"assets/character/Shane.png",
+{"assets/character/shane.png",
 {346, 415},
 {4, 4}
 };
 
 static const object_data_t SEBASTIAN_NAME =
-{"assets/character/Sebastian.png",
+{"assets/character/sebastian.png",
 {1162, 415},
 {4, 4}
 };

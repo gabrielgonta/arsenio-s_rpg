@@ -135,7 +135,7 @@ static const stat_t GAME_ONE =
 
 static const player_data_t SHANE_PRESET =
 {"Shane",
-"./assets/character/Shane.png",
+"./assets/character/shane.png",
 2, 3,
 5,
 (sfVector2f){1000, 1000},
@@ -145,7 +145,7 @@ static const player_data_t SHANE_PRESET =
 
 static const player_data_t SEBASTIAN_PRESET =
 {"Sebastian",
-"./assets/character/Sebastian.png",
+"./assets/character/sebastian.png",
 2, 3,
 2.5,
 (sfVector2f){100, 100},
