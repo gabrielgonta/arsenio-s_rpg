@@ -153,9 +153,9 @@ static const player_data_t SEBASTIAN_PRESET =
 (sfIntRect){0, 0, 14, 29},
 };
 
-static const player_data_t HALEY_PRESET =
+static const player_data_t ARSENIO_PRESET =
 {"Caroline",
-"./assets/character/haley.png",
+"./assets/character/arsenio.png",
 0, 6,
 2.5,
 (sfVector2f){100, 100},

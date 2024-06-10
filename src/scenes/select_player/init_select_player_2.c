@@ -15,9 +15,9 @@ void create_button_face(head_t *head, select_player_t *menu)
     create_button(head, SEBASTIAN_BUTTON, &menu->button);
     menu->Sebastian_button = get_last_button(menu->button);
     sfSprite_setTextureRect(menu->Sebastian_button->sprite, SEBASTIAN_FACE_RECT);
-    create_button(head, HALEY_BUTTON, &menu->button);
-    menu->haley_button = get_last_button(menu->button);
-    sfSprite_setTextureRect(menu->haley_button->sprite, HALEY_FACE_RECT);
+    create_button(head, ARSENIO_BUTTON, &menu->button);
+    menu->arsenio_button = get_last_button(menu->button);
+    sfSprite_setTextureRect(menu->arsenio_button->sprite, ARSENIO_FACE_RECT);
     create_button(head, MARU_BUTTON, &menu->button);
     menu->maru_button = get_last_button(menu->button);
     sfSprite_setTextureRect(menu->maru_button->sprite, MARU_FACE_RECT);
@@ -33,9 +33,9 @@ void create_object_appearance(head_t *head, select_player_t *menu)
     create_object(SEBASTIAN_APPEARANCE, &menu->object);
     object = get_last_object(menu->object);
     sfSprite_setTextureRect(object->sprite, SEBASTIAN_APPEARANCE_RECT);
-    create_object(HALEY_APPEARANCE, &menu->object);
+    create_object(ARSENIO_APPEARANCE, &menu->object);
     object = get_last_object(menu->object);
-    sfSprite_setTextureRect(object->sprite, HALEY_APPEARANCE_RECT);
+    sfSprite_setTextureRect(object->sprite, ARSENIO_APPEARANCE_RECT);
     create_object(MARU_APPEARANCE, &menu->object);
     object = get_last_object(menu->object);
     sfSprite_setTextureRect(object->sprite, MARU_APPEARANCE_RECT);
@@ -51,9 +51,9 @@ void create_object_name(head_t *head, select_player_t *menu)
     create_object(SEBASTIAN_NAME, &menu->object);
     object = get_last_object(menu->object);
     sfSprite_setTextureRect(object->sprite, SEBASTIAN_NAME_RECT);
-    create_object(HALEY_NAME, &menu->object);
+    create_object(ARSENIO_NAME, &menu->object);
     object = get_last_object(menu->object);
-    sfSprite_setTextureRect(object->sprite, HALEY_NAME_RECT);
+    sfSprite_setTextureRect(object->sprite, ARSENIO_NAME_RECT);
     create_object(MARU_NAME, &menu->object);
     object = get_last_object(menu->object);
     sfSprite_setTextureRect(object->sprite, MARU_NAME_RECT);
