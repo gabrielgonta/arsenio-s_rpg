@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** rpg
-** File description:
-** load monster
-*/
-
 #include "rpg.h"
 
 fight_data_t load_monster(char *filepath)

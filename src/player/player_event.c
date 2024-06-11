@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** my_rpg
-** File description:
-** manage event for player
-*/
-
 #include "rpg.h"
 
 void manage_key_press_player(player_t *player, sfEvent event, head_t *head)

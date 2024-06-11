@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** my_rpg
-** File description:
-** animated_player
-*/
-
 #include "rpg.h"
 
 void animate_player(player_t *player)

@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** my rpg
-** File description:
-** direction gen ptcl
-*/
-
 #include "rpg.h"
 
 static void direction_gen_ptcl_north_south(gen_ptcl_t *gen_ptcl, int i)

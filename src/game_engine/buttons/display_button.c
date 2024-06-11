@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** my_rpg
-** File description:
-** animation button
-*/
-
 #include "rpg.h"
 
 void display_button(head_t *head, button_t *first)

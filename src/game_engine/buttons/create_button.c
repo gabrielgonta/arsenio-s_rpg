@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** my_rpg
-** File description:
-** create button
-*/
-
 #include "rpg.h"
 
 button_t *get_last_button(button_t *first_button)

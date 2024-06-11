@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** rpg
-** File description:
-** gen particle
-*/
-
 #include "rpg.h"
 
 static gen_ptcl_t *get_last_gen_ptcl(gen_ptcl_t *first_gen_ptcl)

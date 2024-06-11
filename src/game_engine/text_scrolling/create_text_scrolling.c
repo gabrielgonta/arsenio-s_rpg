@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** my_rpg
-** File description:
-** create object
-*/
-
 #include "rpg.h"
 
 text_scrolling_t *get_last_text_scro(text_scrolling_t *first_text)

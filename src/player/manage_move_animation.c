@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** myrpg
-** File description:
-** manage_move_animation
-*/
-
 #include "rpg.h"
 
 void set_first_rect_player(player_t *player)

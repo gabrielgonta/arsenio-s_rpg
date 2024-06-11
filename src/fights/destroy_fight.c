@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** rpg
-** File description:
-** destroy fight
-*/
-
 #include "rpg.h"
 
 static void destroy_card(head_t *head, card_t *card)

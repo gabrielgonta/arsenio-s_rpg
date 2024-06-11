@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** rpg
-** File description:
-** display fights
-*/
-
 #include "rpg.h"
 
 void display_fights(head_t *head, fight_t *fight)

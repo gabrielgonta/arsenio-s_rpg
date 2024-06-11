@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** my_rpg
-** File description:
-** turn player
-*/
-
 #include "rpg.h"
 
 void turn_player_up(player_t *player)

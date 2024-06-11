@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** my_rpg
-** File description:
-** destroy list object
-*/
-
 #include "rpg.h"
 
 object_t *create_object_inv(object_data_t data, object_t **object)

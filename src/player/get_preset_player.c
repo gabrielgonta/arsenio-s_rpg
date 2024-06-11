@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** B-MUL-200-LYN-2-1-myrpg-david.gozlan
-** File description:
-** get_preset_player
-*/
-
 #include "rpg.h"
 
 player_data_t select_player_preset(head_t *head, pars_data_t *name)

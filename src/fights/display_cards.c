@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** rpg
-** File description:
-** display cards
-*/
-
 #include "rpg.h"
 
 void update_duel_text(head_t *head, fight_t *fight, text_scrolling_t *text)

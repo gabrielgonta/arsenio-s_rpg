@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** rpg
-** File description:
-** init gen mobs
-*/
-
 #include "rpg.h"
 
 void init_gen_mobs(head_t *head, fight_t *fight)

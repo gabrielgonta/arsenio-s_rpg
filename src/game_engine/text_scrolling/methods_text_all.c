@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** my_rpg
-** File description:
-** methods text for all
-*/
-
 #include "rpg.h"
 
 void start_text_all_scrolling(text_scrolling_t *text)

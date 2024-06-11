@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** rpg
-** File description:
-** init fight
-*/
-
 #include "rpg.h"
 
 static void init_fight_text(head_t *head)

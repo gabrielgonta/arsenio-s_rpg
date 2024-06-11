@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** rpg
-** File description:
-** init inventory
-*/
-
 #include "rpg.h"
 
 static void create_inventory_text(head_t *head)

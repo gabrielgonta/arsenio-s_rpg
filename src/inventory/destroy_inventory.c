@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** rpg
-** File description:
-** destroy inventory
-*/
-
 #include "rpg.h"
 
 void destroy_inventory(inventory_t *inventory, scenes_t *scenes)

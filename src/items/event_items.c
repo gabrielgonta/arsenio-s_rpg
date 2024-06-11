@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** rpg
-** File description:
-** event items
-*/
-
 #include "rpg.h"
 
 void display_on_item_text(head_t *head)

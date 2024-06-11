@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** rpg
-** File description:
-** item functions
-*/
-
 #include "rpg.h"
 
 void equip_sword(int i, inventory_t *inventory, head_t *head)

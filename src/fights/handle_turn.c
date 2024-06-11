@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** rpg
-** File description:
-** handle turn
-*/
-
 #include "rpg.h"
 
 void switch_map(head_t *head, in_game_t *game, char *map_name, sfVector2f pos);

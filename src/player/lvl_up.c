@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** rpg
-** File description:
-** lvl up
-*/
-
 #include "rpg.h"
 
 void reset_text_lvl(void)

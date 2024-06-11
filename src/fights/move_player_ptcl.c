@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** rpg
-** File description:
-** move_player_ptcl
-*/
-
 #include "rpg.h"
 
 static void move_left(fight_t *fight)

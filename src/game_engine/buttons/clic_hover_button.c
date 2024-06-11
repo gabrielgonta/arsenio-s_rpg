@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** my_rpg
-** File description:
-** hover button
-*/
-
 #include "rpg.h"
 
 void is_hover_button(button_t *button, sfVector2f clic)

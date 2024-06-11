@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** my_rpg
-** File description:
-** create object
-*/
-
 #include "rpg.h"
 
 void set_pos_hover_text(button_t *button)

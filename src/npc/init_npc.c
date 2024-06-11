@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** B-MUL-200-LYN-2-1-myrpg-david.gozlan
-** File description:
-** init_npc
-*/
-
 #include "rpg.h"
 
 npc_t *get_last_npc(npc_t *list)

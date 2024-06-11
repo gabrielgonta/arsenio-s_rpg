@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** rpg
-** File description:
-** update inventory
-*/
-
 #include "rpg.h"
 
 void update_bar(object_t *object, int value)

@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** rpg
-** File description:
-** init defense
-*/
-
 #include "rpg.h"
 
 void init_defense(fight_t *fight, head_t *head)

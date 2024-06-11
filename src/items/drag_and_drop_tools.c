@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** rpg
-** File description:
-** drag and drop tools
-*/
-
 #include "rpg.h"
 
 int drag_and_drop_on_inv(head_t *head, inventory_t *inventory,

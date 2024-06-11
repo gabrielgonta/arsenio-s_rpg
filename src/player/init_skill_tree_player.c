@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** B-MUL-200-LYN-2-1-myrpg-david.gozlan
-** File description:
-** init_skill_tree_player
-*/
-
 #include "rpg.h"
 
 void init_skill_tree_player(head_t *head, player_t *player)

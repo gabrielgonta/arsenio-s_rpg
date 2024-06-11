@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** my_rpg
-** File description:
-** manage sound
-*/
-
 #include "rpg.h"
 
 void update_bar_sound(head_t *head, object_t *object)

@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** my_rpg
-** File description:
-** handler text
-*/
-
 #include "rpg.h"
 
 void animation_text_scrolling(text_scrolling_t *list_text)

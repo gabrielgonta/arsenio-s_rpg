@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** my_rpg
-** File description:
-** handle gen ptcl
-*/
-
 #include "rpg.h"
 
 void animation_gen_ptcl(gen_ptcl_t *list_gen_ptcl)

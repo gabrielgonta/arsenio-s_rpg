@@ -46,7 +46,7 @@
             ],
             "objective": [
                 {
-                    "name":"Tuer 5 loups",
+                    "name":"Tuer 5 creatures des mines",
                     "nb":5
                 }
             ]

@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** my rpg
-** File description:
-** methods gen ptcl
-*/
-
 #include "rpg.h"
 
 float get_time_gen(gen_ptcl_t *gen_ptcl)

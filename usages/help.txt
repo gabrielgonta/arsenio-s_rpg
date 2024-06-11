@@ -1,4 +1,4 @@
-RPG created in CSFML by David Gozlan, Maxime Premont, Nolann Sabre and Mikael Vallenet.
+RPG created in CSFML by Gabriel
 
 USAGE
     ./my_rpg [OPTIONS]

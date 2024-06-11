@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** my_rpg
-** File description:
-** create object
-*/
-
 #include "rpg.h"
 
 object_t *get_last_object(object_t *object)

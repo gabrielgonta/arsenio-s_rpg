@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** rpg
-** File description:
-** add items
-*/
-
 #include "rpg.h"
 
 void add_items(int id, inventory_t *inventory)

@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** rpg
-** File description:
-** buttons_manager
-*/
-
 #include "rpg.h"
 
 void destroy_button(button_t *button)

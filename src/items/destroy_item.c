@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** rpg
-** File description:
-** delete items
-*/
-
 #include "rpg.h"
 
 void destroy_stacked_item(head_t *head, inventory_t *inventory)

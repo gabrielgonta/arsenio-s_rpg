@@ -1,10 +1,3 @@
-/*
-** EPITECH PROJECT, 2021
-** B-MUL-200-LYN-2-1-myrpg-david.gozlan
-** File description:
-** window_loader
-*/
-
 #include "rpg.h"
 
 int create_windows(head_t *head, option_t *option)
