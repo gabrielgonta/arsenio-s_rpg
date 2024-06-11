@@ -116,8 +116,8 @@ static const music_switch_t GLOBAL_MUSIC[] = {
     {"./resources/maps/first_map.json", "./assets/village.ogg"},
     {"./resources/maps/the_cave.json", "./assets/mines.ogg"},
     {"./resources/maps/the_deep_cave.json", "./assets/the_deep_cave.ogg"},
-    {"resources/maps/infirmary.json", "./assets/village.ogg"},
-    {"resources/maps/lava_cave.json", "./assets/lava_cave.ogg"},
+    {"./resources/maps/infirmary.json", "./assets/village.ogg"},
+    {"./resources/maps/lava_cave.json", "./assets/lava_cave.ogg"},
     {NULL, NULL}
 };
 
