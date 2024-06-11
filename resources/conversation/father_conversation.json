@@ -5,7 +5,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Oh, Arsenio te voila enfin !\nUne terrible tragédie s'est produit..."
+    "string":"Oh, Arsenio te voila enfin !\nUne terrible tragedie s'est produit..."
 }
 {
     "function":0,
@@ -14,7 +14,7 @@
         "top_rect":77,
         "left_rect":182
     },
-    "string":"Hein, quoi ? Comment ça ?"
+    "string":"Hein, quoi ?!\nDe quoi tu parles ?"
 }
 {
     "function":0,
@@ -41,7 +41,16 @@
         "top_rect":77,
         "left_rect":182
     },
-    "string":"Quoi ?! Comment ? Par qui ?!\nOu est-il ?"
+    "string":"QUOI ?! COMMENT ?"
+}
+{
+    "function":0,
+    "speaker":"player",
+    "face": {
+        "top_rect":77,
+        "left_rect":182
+    },
+    "string":"Par qui ?!\nOu est-il ?"
 }
 {
     "function":0,
@@ -54,12 +63,57 @@
 }
 {
     "function":0,
+    "speaker":"player",
+    "face": {
+        "top_rect":77,
+        "left_rect":182
+    },
+    "string":"REPOND MOI !!!\nJE DOIS LE SAUVER"
+}
+{
+    "function":0,
     "speaker":"npc",
     "face": {
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Regarde ton inventaire\npour equiper ton arme..\nTa quete commence a partir\nde maintenant.\nBonne chance mon fils"
+    "string":"Gabriel se promenait lorsqu'il\ntombe sur..."
+}
+{
+    "function":0,
+    "speaker":"npc",
+    "face": {
+        "top_rect":1,
+        "left_rect":107
+    },
+    "string":"ZORAK !!!!!!"
+}
+{
+    "function":0,
+    "speaker":"npc",
+    "face": {
+        "top_rect":1,
+        "left_rect":107
+    },
+    "string":"Il n'y a que toi pour le sauver\nArsenio ! Tu es notre\nseul espoir de le retrouver\nen vie !"
+}
+{
+    "function":0,
+    "speaker":"player",
+    "face": {
+        "top_rect":77,
+        "left_rect":182
+    },
+    "string":"Je jure de retrouver Gabriel\net tuer Zorak !"
+}
+{
+    "function":0,
+    "speaker":"npc",
+    "face": {
+        "top_rect":1,
+        "left_rect":107
+    },
+    "string":"Regarde ton inventaire\npour equiper ton arme..\nTa quete commence a partir\nde maintenant.\nBonne chance Arsenio !"
 }
 {
     "function":1,
