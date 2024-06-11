@@ -88,10 +88,9 @@ static const event_switch_t GLOBAL_EVENT[] = {
     {.name = NULL}
 };
 
-/*
 static const event_switch_t FIRST_VILLAGE_EVENT[] = {
     {"EnterPharm", NULL, {270, 500}, "house.json", 1, 0}
-};*/
+};
 
 typedef struct npc_switch_s {
     char *map_name;
