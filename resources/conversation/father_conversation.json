@@ -5,7 +5,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Oh, Arsenio te voila enfin !\nUne terrible tragedie s'est produit..."
+    "string":"Oh, Arsenio te voila enfin !\nUne terrible tragedie\ns'est produit cette nuit..."
 }
 {
     "function":0,
@@ -14,7 +14,7 @@
         "top_rect":77,
         "left_rect":182
     },
-    "string":"Hein, quoi ?!\nDe quoi tu parles ?"
+    "string":"Hein, quoi ?!\nDe quoi tu parles enfin ?"
 }
 {
     "function":0,
@@ -23,7 +23,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"C'est...\nC'est à propos de..."
+    "string":"C'est...\nC'est a propos de..."
 }
 {
     "function":0,
@@ -50,7 +50,7 @@
         "top_rect":77,
         "left_rect":182
     },
-    "string":"Par qui ?!\nOu est-il ?"
+    "string":"Par qui ?! Ou est-il ?"
 }
 {
     "function":0,
@@ -59,7 +59,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Calme toi Arsenio c'est compliqué..."
+    "string":"Calme toi Arsenio ! Je sais que\ncette annonce te boulverse mais\nlaisse moi t'expliquer."
 }
 {
     "function":0,
@@ -68,7 +68,7 @@
         "top_rect":77,
         "left_rect":182
     },
-    "string":"REPOND MOI !!!\nJE DOIS LE SAUVER"
+    "string":"REPOND MOI !!!\nJE DOIS LE SAUVER !!"
 }
 {
     "function":0,
@@ -77,7 +77,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Gabriel se promenait lorsqu'il\ntombe sur..."
+    "string":"Gabriel suivait sa traque de l'assasin\ndu village. Mais l'assassin lui tendu\nun piege !\nL'assassin est..."
 }
 {
     "function":0,
@@ -95,7 +95,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Il n'y a que toi pour le sauver\nArsenio ! Tu es notre\nseul espoir de le retrouver\nen vie !"
+    "string":"Il n'y a que toi pour le sauver\nArsenio ! Tu es notre seul espoir\nde le retrouver en vie !"
 }
 {
     "function":0,
@@ -113,7 +113,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Regarde ton inventaire\npour equiper ton arme..\nTa quete commence a partir\nde maintenant.\nBonne chance Arsenio !"
+    "string":"Regarde ton inventaire pour\nequiper ton arme..\nTa quete commence a partir\nde maintenant.\nBonne chance Arsenio !"
 }
 {
     "function":1,
