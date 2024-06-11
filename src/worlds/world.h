@@ -88,9 +88,10 @@ static const event_switch_t GLOBAL_EVENT[] = {
     {.name = NULL}
 };
 
+/*
 static const event_switch_t FIRST_VILLAGE_EVENT[] = {
     {"EnterPharm", NULL, {270, 500}, "house.json", 1, 0}
-};
+};*/
 
 typedef struct npc_switch_s {
     char *map_name;
@@ -112,11 +113,11 @@ typedef struct music_switch_s {
 
 static const music_switch_t GLOBAL_MUSIC[] = {
     {FIRST_VILLAGE, "./assets/village.ogg"},
-    {"./resources/maps/house.json", "./assets/mines.ogg"},
+    {"./resources/maps/first_map.json", "./assets/village.ogg"},
     {"./resources/maps/the_cave.json", "./assets/mines.ogg"},
-    {"./resources/maps/the_deep_cave.json", "./assets/mines.ogg"},
+    {"./resources/maps/the_deep_cave.json", "./assets/the_deep_cave.ogg"},
     {"resources/maps/infirmary.json", "./assets/village.ogg"},
-    {"resources/maps/lava_cave.json", "./assets/village.ogg"},
+    {"resources/maps/lava_cave.json", "./assets/lava_cave.ogg"},
     {NULL, NULL}
 };
 
