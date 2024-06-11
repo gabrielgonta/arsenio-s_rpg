@@ -5,16 +5,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Oh, te voila mon fils."
-}
-{
-    "function":0,
-    "speaker":"npc",
-    "face": {
-        "top_rect":1,
-        "left_rect":107
-    },
-    "string":"Ce n'est plus possible,\nje dois les arreter.\nDepuis que cette chose est la,\ndes monstres attaquent nos terres."
+    "string":"Oh, Arsenio te voila enfin !\nUne terrible tragédie s'est produit..."
 }
 {
     "function":0,
@@ -23,7 +14,7 @@
         "top_rect":77,
         "left_rect":182
     },
-    "string":"Non pere, tu as perdu la raison.\nCette chose est demoniaque,\ntu ne pourras pas la vaincre..."
+    "string":"Hein, quoi ? Comment ça ?"
 }
 {
     "function":0,
@@ -32,7 +23,34 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Mais que faire alors ...\nen tout cas prend cette arme,\nelle te defendra si tu te fais\nattaquer."
+    "string":"C'est...\nC'est à propos de..."
+}
+{
+    "function":0,
+    "speaker":"npc",
+    "face": {
+        "top_rect":1,
+        "left_rect":107
+    },
+    "string":"C'est Gabriel... Il a disparu !"
+}
+{
+    "function":0,
+    "speaker":"player",
+    "face": {
+        "top_rect":77,
+        "left_rect":182
+    },
+    "string":"Quoi ?! Comment ? Par qui ?!\nOu est-il ?"
+}
+{
+    "function":0,
+    "speaker":"npc",
+    "face": {
+        "top_rect":1,
+        "left_rect":107
+    },
+    "string":"Calme toi Arsenio c'est compliqué..."
 }
 {
     "function":0,
