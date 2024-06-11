@@ -14,5 +14,59 @@
         "top_rect":77,
         "left_rect":182
     },
-    "string":"Bonjour petite fille !"
+    "string":"Salut Jas !\nJ'ai une question a te poser ?"
+}
+{
+    "function":0,
+    "speaker":"npc",
+    "face": {
+        "top_rect":1,
+        "left_rect":107
+    },
+    "string":"Dis-moi tout !"
+}
+{
+    "function":0,
+    "speaker":"player",
+    "face": {
+        "top_rect":77,
+        "left_rect":182
+    },
+    "string":"Saurais-tu ou puis-je trouver Zorak ?"
+}
+{
+    "function":0,
+    "speaker":"npc",
+    "face": {
+        "top_rect":1,
+        "left_rect":107
+    },
+    "string":"Tu parles de Zorak ?\nLe maire de la ville ?\nIl est actuellement en exil"
+}
+{
+    "function":0,
+    "speaker":"player",
+    "face": {
+        "top_rect":77,
+        "left_rect":182
+    },
+    "string":"En exil ?"
+}
+{
+    "function":0,
+    "speaker":"npc",
+    "face": {
+        "top_rect":1,
+        "left_rect":107
+    },
+    "string":"Oui, mais des gens disent qu'il\nse cache dans l'acienne mine\nrempli de monstre a l'Ouest !"
+}
+{
+    "function":0,
+    "speaker":"player",
+    "face": {
+        "top_rect":77,
+        "left_rect":182
+    },
+    "string":"D'accord merci Jas !"
 }

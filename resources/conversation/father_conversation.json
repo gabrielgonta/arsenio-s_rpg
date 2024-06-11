@@ -5,7 +5,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Oh, Arsenio te voila enfin !\nUne terrible tragedie\ns'est produit cette nuit..."
+    "string":"Oh, Arsenio te voila enfin !\nUne terrible tragedie s'est\nproduit cette nuit..."
 }
 {
     "function":0,
@@ -77,7 +77,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Gabriel suivait sa traque de l'assasin\ndu village. Mais l'assassin lui tendu\nun piege !\nL'assassin est..."
+    "string":"Gabriel suivait sa traque du\nmeurtrier du village. Mais l'assassin lui tendu\nun piege !\nL'assassin est..."
 }
 {
     "function":0,
@@ -90,12 +90,30 @@
 }
 {
     "function":0,
+    "speaker":"player",
+    "face": {
+        "top_rect":77,
+        "left_rect":182
+    },
+    "string":"Zorak ?? Mais... c'est impossible !"
+}
+{
+    "function":0,
     "speaker":"npc",
     "face": {
         "top_rect":1,
         "left_rect":107
     },
     "string":"Il n'y a que toi pour le sauver\nArsenio ! Tu es notre seul espoir\nde le retrouver en vie !"
+}
+{
+    "function":0,
+    "speaker":"npc",
+    "face": {
+        "top_rect":1,
+        "left_rect":107
+    },
+    "string":"Retrouve l'artefct legendaires\net tu sauvras Gabriel"
 }
 {
     "function":0,

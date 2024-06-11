@@ -5,7 +5,7 @@
         "top_rect":1,
         "left_rect":106
     },
-    "string":"Bien le bonjour citoyen.\nVous faut-il quelque chose ?\n"
+    "string":"Bien le bonjour citoyen.\nJe suis Restak le nouveau maire\nVous faut-il quelque chose ?\n"
 }
 {
     "function":0,
@@ -14,7 +14,7 @@
         "top_rect":77,
         "left_rect":182
     },
-    "string":"Non, je viens juste dire bonjour.\n Bonne journee !"
+    "string":"Ou est Zorak ? L'ancien maire ?"
 }
 {
     "function":0,
@@ -23,7 +23,16 @@
         "top_rect":1,
         "left_rect":106
     },
-    "string":"Bonne journee a vous aussi !"
+    "string":"Il est parti !"
+}
+{
+    "function":0,
+    "speaker":"player",
+    "face": {
+        "top_rect":77,
+        "left_rect":182
+    },
+    "string":"Et vous sav..."
 }
 {
     "function":0,
@@ -32,6 +41,6 @@
         "top_rect":1,
         "left_rect":106
     },
-    "string":"(t'es vrm craquant)"
+    "string":"Vas t'en !"
 }
 

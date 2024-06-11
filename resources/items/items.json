@@ -28,7 +28,7 @@
             "stackable" : false,
             "id_function" : 6,
             "sprite" : "./assets/items/bat.png",
-            "description": "Une arme par défault ...",
+            "description": "Une arme par défault",
             "damage" : 7,
             "armor" : 0,
             "rarete": 1
@@ -83,7 +83,7 @@
             "stackable" : false,
             "id_function" : 4,
             "sprite" : "./assets/items/leather_chestplate.png",
-            "description": "c'est giga cringe, next.",
+            "description": "Un plastron, euuuh, basique, on va dire que ca fait l'affaire",
             "damage" : 0,
             "armor" : 12,
             "rarete": 1
@@ -105,7 +105,7 @@
             "stackable" : false,
             "id_function" : 2,
             "sprite" : "./assets/items/iron_boots.png",
-            "description": "Elle détruisent les pieds plus qu'elles les protegent.",
+            "description": "Elle détruisent les pieds plus qu'elles les protegent. Mais en vrai elles sont efficasses",
             "damage" : 0,
             "armor" : 9,
             "rarete": 2
@@ -149,7 +149,7 @@
             "stackable" : false,
             "id_function" : 2,
             "sprite" : "./assets/items/gold_boots.png",
-            "description": "Les bottes divines, permettent de courrir Tah Lewandoski.",
+            "description": "Les bottes divines, permettent de courrir aussi vite que Forest Gump",
             "damage" : 0,
             "armor" : 15,
             "rarete": 3
@@ -160,7 +160,7 @@
             "stackable" : false,
             "id_function" : 3,
             "sprite" : "./assets/items/gold_leggings.png",
-            "description": "Pantalon charismatique, il attire la gente opposé.",
+            "description": "Pantalon charismatique, il attire la gente opposé en plus d'etre super resistant'.",
             "damage" : 0,
             "armor" : 25,
             "rarete": 3
@@ -171,7 +171,7 @@
             "stackable" : false,
             "id_function" : 4,
             "sprite" : "./assets/items/gold_chestplate.png",
-            "description": "Plastron pour les Z'hommes.",
+            "description": "Plastron aussi resistant que la netherite",
             "damage" : 0,
             "armor" : 35,
             "rarete": 3
@@ -182,7 +182,7 @@
             "stackable" : false,
             "id_function":5,
             "sprite":"./assets/items/gold_helmet.png",
-            "description":"Insensible aux balles, S/O la NRA !",
+            "description":"Insensible aux balles !",
             "damage" : 0,
             "armor" : 20,
             "rarete": 3
@@ -193,7 +193,7 @@
             "stackable" : false,
             "id_function":5,
             "sprite":"./assets/items/artefact.png",
-            "description":"L'artefact des dieux, elle vous rendra surpuissant.",
+            "description":"L'artefact des dieux, elle vous rendra surpuissant. Elle peut sauver Gabriel aussi",
             "damage" : 0,
             "armor" : 50,
             "rarete": 3
