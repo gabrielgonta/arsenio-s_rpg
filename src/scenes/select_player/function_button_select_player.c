@@ -16,16 +16,16 @@ void launch_game(head_t *head, button_t *button)
 {
     pars_data_t *obj;
 
-    if (button == head->scenes->select_player->alex_button) {
-        obj = init_player_data_json("Alex");
+    if (button == head->scenes->select_player->shane_button) {
+        obj = init_player_data_json("Shane");
         writer_json(get_path_save(head), NULL, obj);
     }
-    if (button == head->scenes->select_player->elliot_button) {
-        obj = init_player_data_json("Elliot");
+    if (button == head->scenes->select_player->sebastian_button) {
+        obj = init_player_data_json("Sebastian");
         writer_json(get_path_save(head), NULL, obj);
     }
-    if (button == head->scenes->select_player->haley_button) {
-        obj = init_player_data_json("Haley");
+    if (button == head->scenes->select_player->arsenio_button) {
+        obj = init_player_data_json("Arsenio");
         writer_json(get_path_save(head), NULL, obj);
     }
     if (button == head->scenes->select_player->maru_button) {

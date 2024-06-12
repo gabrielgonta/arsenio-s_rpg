@@ -5,16 +5,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Oh, te voila mon fils."
-}
-{
-    "function":0,
-    "speaker":"npc",
-    "face": {
-        "top_rect":1,
-        "left_rect":107
-    },
-    "string":"Ce n'est plus possible,\nje dois les arreter.\nDepuis que cette chose est la,\ndes monstres attaquent nos terres."
+    "string":"Oh, tu es debout ?\nJe dois te parler..."
 }
 {
     "function":0,
@@ -23,7 +14,25 @@
         "top_rect":77,
         "left_rect":182
     },
-    "string":"Non pere, tu as perdu la raison.\nCette chose est demoniaque,\ntu ne pourras pas la vaincre..."
+    "string":"Qu'est-ce qui se passe, père ?\nPourquoi cet air sombre ?"
+}
+{
+    "function":0,
+    "speaker":"npc",
+    "face": {
+        "top_rect":1,
+        "left_rect":107
+    },
+    "string":"C'est... C'est au sujet..."
+}
+{
+    "function":0,
+    "speaker":"npc",
+    "face": {
+        "top_rect":1,
+        "left_rect":107
+    },
+    "string":"Qu'est-ce qui se passe, père ?\nPourquoi cet air sombre ?"
 }
 {
     "function":0,

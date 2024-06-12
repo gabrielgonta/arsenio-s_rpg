@@ -51,7 +51,7 @@ typedef struct quest_s {
     char *name;
     char *description;
     int quest_id;
-    awards_t **awards; // list non chainé
+    awards_t **awards; // list non chaine
     quest_step_t **step;
     int current_step;
     char *awards_desc;
