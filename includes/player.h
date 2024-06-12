@@ -133,9 +133,9 @@ static const stat_t GAME_ONE =
     300, 250, 120, 1, 500, 14, 8, 1.4
 };
 
-static const player_data_t SHANE_PRESET =
-{"Shane",
-"./assets/character/shane.png",
+static const player_data_t ALEX_PRESET =
+{"Alex",
+"./assets/character/alex.png",
 2, 3,
 5,
 (sfVector2f){1000, 1000},
@@ -143,9 +143,9 @@ static const player_data_t SHANE_PRESET =
 (sfIntRect){0, 0, 14, 29},
 };
 
-static const player_data_t SEBASTIAN_PRESET =
-{"Sebastian",
-"./assets/character/sebastian.png",
+static const player_data_t ELLIOT_PRESET =
+{"Elliot",
+"./assets/character/elliot.png",
 2, 3,
 2.5,
 (sfVector2f){100, 100},
@@ -153,9 +153,9 @@ static const player_data_t SEBASTIAN_PRESET =
 (sfIntRect){0, 0, 14, 29},
 };
 
-static const player_data_t ARSENIO_PRESET =
+static const player_data_t HALEY_PRESET =
 {"Caroline",
-"./assets/character/arsenio.png",
+"./assets/character/haley.png",
 0, 6,
 2.5,
 (sfVector2f){100, 100},

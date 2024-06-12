@@ -1,6 +1,6 @@
 {
     "name":"Une mission impossible.",
-    "description":"Decouvrez et terrassez le secret des grottes.",
+    "description":"Decouvrez et terassez le secret des grottes.",
     "value":"main_quest",
     "awards": [
         {
@@ -12,7 +12,7 @@
     "step": [
         {
             "id":0,
-            "description":"Un secret inexploré",
+            "description":"Un secret inexplore",
             "npc": [
                 {
                     "name":"Clint",
@@ -46,7 +46,7 @@
             ],
             "objective": [
                 {
-                    "name":"Tuer 5 troglytes",
+                    "name":"Tuer 5 loups",
                     "nb":5
                 }
             ]
