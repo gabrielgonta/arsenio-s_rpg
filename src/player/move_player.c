@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** my_rpg
+** File description:
+** move player
+*/
+
 #include "rpg.h"
 
 void move_up_player(player_t *player)

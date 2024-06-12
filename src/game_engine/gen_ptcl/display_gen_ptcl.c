@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** my rpg
+** File description:
+** display gen ptcl
+*/
+
 #include "rpg.h"
 
 void display_one_ptcl(head_t *head, gen_ptcl_t *gen_ptcl)

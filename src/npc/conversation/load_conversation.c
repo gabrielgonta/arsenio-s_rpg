@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** B-MUL-200-LYN-2-1-myrpg-david.gozlan
+** File description:
+** load_conversation
+*/
+
 #include "rpg.h"
 
 void launch_first_conversation(head_t *head, player_t *player, npc_t *npc)

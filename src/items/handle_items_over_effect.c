@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** rpg
+** File description:
+** handle over effect
+*/
+
 #include "rpg.h"
 
 static void over_effect(head_t *head, inventory_t *inventory,

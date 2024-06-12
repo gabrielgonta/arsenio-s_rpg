@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** rpg
+** File description:
+** display inventory
+*/
+
 #include "rpg.h"
 
 void display_inventory_bar(head_t *head)

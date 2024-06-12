@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** B-MUL-200-LYN-2-1-myrpg-david.gozlan
+** File description:
+** event_zone
+*/
+
 #include "rpg.h"
 
 void move_event_zone(npc_t *npc)

@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** my_rpg
+** File description:
+** create text
+*/
+
 #include "rpg.h"
 
 float get_time_text_scrolling(text_scrolling_t* text)

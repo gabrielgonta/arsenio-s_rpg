@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** B-MUL-200-LYN-2-1-myrpg-david.gozlan
+** File description:
+** conversation_event
+*/
+
 #include "rpg.h"
 
 void check_enter_conversation(head_t *head)

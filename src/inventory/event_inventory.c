@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** rpg
+** File description:
+** event inventory
+*/
+
 #include "rpg.h"
 
 static void display_on_inventory_text(head_t *head)

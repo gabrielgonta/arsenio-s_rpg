@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** my_rpg
+** File description:
+** destroy gen ptcl
+*/
+
 #include "rpg.h"
 
 void destroy_gen_ptcl(gen_ptcl_t *list_gen_ptcl)

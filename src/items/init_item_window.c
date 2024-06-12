@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** rpg
+** File description:
+** init item window
+*/
+
 #include "rpg.h"
 
 static void create_item_text(head_t *head)

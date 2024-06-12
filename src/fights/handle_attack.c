@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** rpg
+** File description:
+** handle attack
+*/
+
 #include "rpg.h"
 
 static void move_stick(head_t *head, fight_t *fight)

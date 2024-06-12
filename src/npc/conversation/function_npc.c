@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** B-MUL-200-LYN-2-1-myrpg-david.gozlan
+** File description:
+** function_npc
+*/
+
 #include "rpg.h"
 
 static const void (*CONVERSATION_EVENT[])(head_t *head) =

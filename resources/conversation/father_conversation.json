@@ -5,7 +5,16 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Oh, Arsenio te voila enfin !\nUne terrible tragedie s'est\nproduit cette nuit..."
+    "string":"Oh, te voila mon fils."
+}
+{
+    "function":0,
+    "speaker":"npc",
+    "face": {
+        "top_rect":1,
+        "left_rect":107
+    },
+    "string":"Ce n'est plus possible,\nje dois les arreter.\nDepuis que cette chose est la,\ndes monstres attaquent nos terres."
 }
 {
     "function":0,
@@ -14,7 +23,7 @@
         "top_rect":77,
         "left_rect":182
     },
-    "string":"Hein, quoi ?!\nDe quoi tu parles enfin ?"
+    "string":"Non pere, tu as perdu la raison.\nCette chose est demoniaque,\ntu ne pourras pas la vaincre..."
 }
 {
     "function":0,
@@ -23,7 +32,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"C'est...\nC'est a propos de..."
+    "string":"Mais que faire alors ...\nen tout cas prend cette arme,\nelle te defendra si tu te fais\nattaquer."
 }
 {
     "function":0,
@@ -32,106 +41,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"C'est Gabriel... Il a disparu !"
-}
-{
-    "function":0,
-    "speaker":"player",
-    "face": {
-        "top_rect":77,
-        "left_rect":182
-    },
-    "string":"QUOI ?! COMMENT ?"
-}
-{
-    "function":0,
-    "speaker":"player",
-    "face": {
-        "top_rect":77,
-        "left_rect":182
-    },
-    "string":"Par qui ?! Ou est-il ?"
-}
-{
-    "function":0,
-    "speaker":"npc",
-    "face": {
-        "top_rect":1,
-        "left_rect":107
-    },
-    "string":"Calme toi Arsenio ! Je sais que\ncette annonce te boulverse mais\nlaisse moi t'expliquer."
-}
-{
-    "function":0,
-    "speaker":"player",
-    "face": {
-        "top_rect":77,
-        "left_rect":182
-    },
-    "string":"REPOND MOI !!!\nJE DOIS LE SAUVER !!"
-}
-{
-    "function":0,
-    "speaker":"npc",
-    "face": {
-        "top_rect":1,
-        "left_rect":107
-    },
-    "string":"Gabriel suivait sa traque du\nmeurtrier du village. Mais l'assassin lui tendu\nun piege !\nL'assassin est..."
-}
-{
-    "function":0,
-    "speaker":"npc",
-    "face": {
-        "top_rect":1,
-        "left_rect":107
-    },
-    "string":"ZORAK !!!!!!"
-}
-{
-    "function":0,
-    "speaker":"player",
-    "face": {
-        "top_rect":77,
-        "left_rect":182
-    },
-    "string":"Zorak ?? Mais... c'est impossible !"
-}
-{
-    "function":0,
-    "speaker":"npc",
-    "face": {
-        "top_rect":1,
-        "left_rect":107
-    },
-    "string":"Il n'y a que toi pour le sauver\nArsenio ! Tu es notre seul espoir\nde le retrouver en vie !"
-}
-{
-    "function":0,
-    "speaker":"npc",
-    "face": {
-        "top_rect":1,
-        "left_rect":107
-    },
-    "string":"Retrouve l'artefct legendaires\net tu sauvras Gabriel"
-}
-{
-    "function":0,
-    "speaker":"player",
-    "face": {
-        "top_rect":77,
-        "left_rect":182
-    },
-    "string":"Je jure de retrouver Gabriel\net tuer Zorak !"
-}
-{
-    "function":0,
-    "speaker":"npc",
-    "face": {
-        "top_rect":1,
-        "left_rect":107
-    },
-    "string":"Regarde ton inventaire pour\nequiper ton arme..\nTa quete commence a partir\nde maintenant.\nBonne chance Arsenio !"
+    "string":"Regarde ton inventaire\npour equiper ton arme..\nTa quete commence a partir\nde maintenant.\nBonne chance mon fils"
 }
 {
     "function":1,

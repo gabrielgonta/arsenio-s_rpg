@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** my_rpg
+** File description:
+** move player
+*/
+
 #include "rpg.h"
 
 void init_first_rect(player_t *player, player_data_t player_data)

@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** rpg
+** File description:
+** handle defense
+*/
+
 #include "rpg.h"
 
 void move_gen_ptcl_along_box_aux(gen_ptcl_t *list_gen, fight_t *fight)

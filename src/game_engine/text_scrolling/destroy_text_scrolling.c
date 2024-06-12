@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** my_rpg
+** File description:
+** destroy list object
+*/
+
 #include "rpg.h"
 
 void destroy_text_scrolling(text_scrolling_t *list_text)

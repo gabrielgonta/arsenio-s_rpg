@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** B-MUL-200-LYN-2-1-myrpg-david.gozlan
+** File description:
+** file_empty_inventory
+*/
+
 #include "rpg.h"
 
 void fill_empty_inventory(inventory_t *inventory)

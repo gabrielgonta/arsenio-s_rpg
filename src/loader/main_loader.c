@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** rpg
+** File description:
+** loader
+*/
+
 #include "rpg.h"
 
 static option_t *option_initialize(void)

@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** B-MUL-200-LYN-2-1-myrpg-david.gozlan
+** File description:
+** destroy_npc
+*/
+
 #include "rpg.h"
 
 void destroy_conversation_data(pars_obj_t *data)

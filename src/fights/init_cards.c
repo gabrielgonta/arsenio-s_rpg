@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** rpg
+** File description:
+** init cards
+*/
+
 #include "rpg.h"
 
 void init_card_player(head_t *head, card_t *card, char *filepath)

@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** rpg
+** File description:
+** func potions
+*/
+
 #include "rpg.h"
 
 void health_potion(int i, inventory_t *inventory, head_t *head)

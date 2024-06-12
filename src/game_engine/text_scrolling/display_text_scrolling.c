@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** my_rpg
+** File description:
+** display text
+*/
+
 #include "rpg.h"
 
 void display_text_scrolling(head_t *head, text_scrolling_t *list_text)

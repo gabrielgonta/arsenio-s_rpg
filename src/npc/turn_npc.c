@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** B-MUL-200-LYN-2-1-myrpg-david.gozlan
+** File description:
+** turn_npc
+*/
+
 #include "rpg.h"
 
 void turn_npc_up(npc_t *npc)

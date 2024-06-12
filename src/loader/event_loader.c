@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** B-MUL-200-LYN-2-1-myrpg-david.gozlan
+** File description:
+** main_2_loader
+*/
+
 #include "rpg.h"
 
 event_t *event_initialize(void)

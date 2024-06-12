@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** rpg
+** File description:
+** drag and drop
+*/
+
 #include "rpg.h"
 
 static void handle_change_inventory_slots(head_t *head, inventory_t *inventory,

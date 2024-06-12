@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** B-MUL-200-LYN-2-1-myrpg-david.gozlan
+** File description:
+** hanler_npc
+*/
+
 #include "rpg.h"
 
 void npc_event(head_t *head, sfEvent event, npc_t *npc)

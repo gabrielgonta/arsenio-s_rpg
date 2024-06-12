@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** my_rpg
+** File description:
+** switch fullscreen
+*/
+
 #include "rpg.h"
 
 void create_window_fullscreen(head_t *head, sfVideoMode window_mode)

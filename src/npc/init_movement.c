@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** B-MUL-200-LYN-2-1-myrpg-david.gozlan
+** File description:
+** init_movement
+*/
+
 #include "rpg.h"
 
 void init_orientation_npc(pars_data_t *data, npc_t *npc)

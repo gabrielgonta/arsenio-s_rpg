@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** B-MUL-200-LYN-2-1-myrpg-david.gozlan
+** File description:
+** init_player_aux
+*/
+
 #include "rpg.h"
 
 void display_cloud(head_t *head, player_t *player)

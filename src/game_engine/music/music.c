@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** my_rpg
+** File description:
+** manage music
+*/
+
 #include "rpg.h"
 
 sfMusic *create_music(head_t *head, char *path)

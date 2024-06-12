@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** rpg
+** File description:
+** launch rdm fight
+*/
+
 #include "rpg.h"
 
 static void launch_rdm_fight_aux(head_t *head, int fight, int i)

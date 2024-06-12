@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** rpg
+** File description:
+** update
+*/
+
 #include "rpg.h"
 
 static void put_escape_desc(inventory_t *inventory,

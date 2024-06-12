@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** B-MUL-200-LYN-2-1-myrpg-david.gozlan
+** File description:
+** manage_patern
+*/
+
 #include "rpg.h"
 
 void move_up_npc(npc_t *npc)

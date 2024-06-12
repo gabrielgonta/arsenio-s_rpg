@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** B-MUL-200-LYN-2-1-myrpg-david.gozlan
+** File description:
+** skip_animation
+*/
+
 #include "rpg.h"
 
 void skip_animation_text_scrolling(char *name, text_scrolling_t *list)

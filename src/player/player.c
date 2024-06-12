@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** my_rpg
+** File description:
+** manage character
+*/
+
 #include "rpg.h"
 
 void destroy_player(player_t *player)

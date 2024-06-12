@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** rpg
+** File description:
+** double click
+*/
+
 #include "rpg.h"
 
 void update_timer(head_t *head, inventory_t *inventory)

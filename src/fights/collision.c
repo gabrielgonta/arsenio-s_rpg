@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** rpg
+** File description:
+** collision
+*/
+
 #include "rpg.h"
 
 void update_god_mod(fight_t *fight, float time)

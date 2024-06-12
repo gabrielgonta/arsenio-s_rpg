@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** rpg
+** File description:
+** load_items
+*/
+
 #include "rpg.h"
 
 void load_strings_items(pars_data_t *data, items_t *new_items)

@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** B-MUL-200-LYN-2-1-myrpg-david.gozlan
+** File description:
+** save_stat_player
+*/
+
 #include "rpg.h"
 
 void save_inventory(head_t *head)

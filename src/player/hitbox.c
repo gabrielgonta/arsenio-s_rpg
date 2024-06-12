@@ -1,3 +1,10 @@
+/*
+** EPITECH PROJECT, 2021
+** B-MUL-200-LYN-2-1-myrpg-david.gozlan
+** File description:
+** hitbox
+*/
+
 #include "rpg.h"
 
 static sfBool is_hitbox_npc(head_t *head, sfVector2f pos)
