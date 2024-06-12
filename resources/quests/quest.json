@@ -1,6 +1,6 @@
 {
     "name":"Une mission impossible.",
-    "description":"Sauvez Gabriel des griffes de Zorak !",
+    "description":"Decouvrez et terassez le secret des grottes.",
     "value":"main_quest",
     "awards": [
         {
@@ -46,7 +46,7 @@
             ],
             "objective": [
                 {
-                    "name":"Tuer 5 creatures des mines",
+                    "name":"Tuer 5 loups",
                     "nb":5
                 }
             ]
@@ -87,7 +87,7 @@
             ],
             "objective": [
                 {
-                    "name":"Retrouvez et battez le demon des profondeurs pour sauver Gabriel.",
+                    "name":"Retrouvez et battez le demon des profondeurs.",
                     "nb":1
                 }
             ]
