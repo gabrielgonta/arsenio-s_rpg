@@ -5,7 +5,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Hey salut, moi c'est Jas"
+    "string":"Hé, toi !\nTu cherches quelqu'un, n'est-ce pas ?"
 }
 {
     "function":0,
@@ -14,5 +14,131 @@
         "top_rect":77,
         "left_rect":182
     },
-    "string":"Bonjour petite fille !"
+    "string":"Bonjour, petite.\nOui, je cherche des informations sur Zorak et son repaire.\nComment tu le sais ?"
+}
+{
+    "function":0,
+    "speaker":"npc",
+    "face": {
+        "top_rect":1,
+        "left_rect":107
+    },
+    "string":"Tout le monde parle de Zorak.\nIl fait peur à tout le village.\nMais moi, je sais où il se cache."
+}
+{
+    "function":0,
+    "speaker":"player",
+    "face": {
+        "top_rect":77,
+        "left_rect":182
+    },
+    "string":"Vraiment ?\nPeux-tu me dire où ?"
+}
+{
+    "function":0,
+    "speaker":"npc",
+    "face": {
+        "top_rect":1,
+        "left_rect":107
+    },
+    "string":"Il se cache dans une vieille\nmine à l'ouest."
+}
+{
+    "function":0,
+    "speaker":"npc",
+    "face": {
+        "top_rect":1,
+        "left_rect":107
+    },
+    "string":"Mon grand-père m'a raconté que cette mine\nest maudite et que personne ne doit s'en approcher."
+}
+{
+    "function":0,
+    "speaker":"npc",
+    "face": {
+        "top_rect":1,
+        "left_rect":107
+    },
+    "string":"Mais je l'ai vu entrer plusieurs\nfois avec des monstres."
+}
+{
+    "function":0,
+    "speaker":"player",
+    "face": {
+        "top_rect":77,
+        "left_rect":182
+    },
+    "string":" Des monstres ?\nQue faisaient-ils ?!"
+}
+{
+    "function":0,
+    "speaker":"npc",
+    "face": {
+        "top_rect":1,
+        "left_rect":107
+    },
+    "string":"Ils disaient que Zorak avait besoin de\nl'artefact pour ouvrir un portail vers un autre monde."
+}
+{
+    "function":0,
+    "speaker":"player",
+    "face": {
+        "top_rect":77,
+        "left_rect":182
+    },
+    "string":"Cela correspond à ce que mon père m'a dit.\nAs-tu entendu autre chose ?"
+}
+{
+    "function":0,
+    "speaker":"npc",
+    "face": {
+        "top_rect":1,
+        "left_rect":107
+    },
+    "string":"Oui. Ils ont parlé de pièges et de créatures\nqui gardent l'entrée.\nZorak protege l'artefacte"
+}
+{
+    "function":0,
+    "speaker":"player",
+    "face": {
+        "top_rect":77,
+        "left_rect":182
+    },
+    "string":"Merci, Jas. Tu m'as beaucoup aidé.\nDis-moi, pourquoi m'aider ?"
+}
+{
+    "function":0,
+    "speaker":"npc",
+    "face": {
+        "top_rect":1,
+        "left_rect":107
+    },
+    "string":"Gabriel était gentil avec moi.\nIl m'aidait toujours à ramasser des\nfleurs et à me raconter des histoires.\nJe veux qu'il revienne."
+}
+{
+    "function":0,
+    "speaker":"player",
+    "face": {
+        "top_rect":77,
+        "left_rect":182
+    },
+    "string":"Je te promets de faire tout mon possible\npour ramener Gabriel.\nMerci pour ton aide, Jas.\nSois prudente, d'accord ?"
+}
+{
+    "function":0,
+    "speaker":"npc",
+    "face": {
+        "top_rect":1,
+        "left_rect":107
+    },
+    "string":"Toi aussi.\nEt fais attention à Zorak.\nIl est vraiment méchant."
+}
+{
+    "function":0,
+    "speaker":"player",
+    "face": {
+        "top_rect":77,
+        "left_rect":182
+    },
+    "string":"Je suis prêt\n Merci encore, Jas.\nÀ bientôt !"
 }

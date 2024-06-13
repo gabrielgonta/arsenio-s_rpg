@@ -41,7 +41,7 @@
         "top_rect":77,
         "left_rect":182
     },
-    "string":"QUOI ?! Comment,\ndisparu ? Ou est-il ?!"
+    "string":"QUOI ?! Comment, disparu ?\nOu est-il ?!"
 }
 {
     "function":0,
@@ -50,7 +50,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Gabriel a ete capture par..."
+    "string":"Gabriel fut kidnappe par..."
 }
 {
     "function":0,
@@ -77,7 +77,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Zorak est un assassin dangereux\net redoutable.\nJadis, il fut un membre\nde notre communauté."
+    "string":"Zorak est un assassin dangereux\net redoutable.\nJadis, il fut un membre\nde notre village."
 }
 {
     "function":0,
@@ -95,7 +95,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Lors d'une expedition dans\nles profondeurs des mines,\nil a decouvert une ancienne magie\nnoire qui a déforme son ame."
+    "string":"Lors d'une expedition dans\nles profondeurs des mines,\nil a decouvert une ancienne magie\nnoire qui a obscurci son ame."
 }
 {
     "function":0,
@@ -104,7 +104,7 @@
         "top_rect":77,
         "left_rect":182
     },
-    "string":"Comment un homme peut-il tombercsi bas ?"
+    "string":"Comment un homme peut-il\ntomber si bas ?"
 }
 {
     "function":0,
@@ -113,7 +113,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Zorak commence a utiliser cette\nmagie pour ses propres fins,\ntuant ceux qui s'opposaient à\nlui et pillant les trésors enfouis dans les mines."
+    "string":"Zorak commence a utiliser cette\nmagie pour ses propres fins,\ntuant ceux qui s'opposaient a\nlui et pillant les tresors enfouis\ndans les mines."
 }
 {
     "function":0,
@@ -122,7 +122,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Il a fini par devenir une légende,\nune ombre mortelle que personne n'ose\naffronter."
+    "string":"Il a fini par devenir une legende,\nune ombre mortelle que personne\nn'ose plus affronter."
 }
 {
     "function":0,
@@ -140,7 +140,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Zorak a utilise une magie ancienne pour\ntransformer Gabriel en un artefact legendaire."
+    "string":"Zorak s'est servi d'une magie\nancienne pour transformer Gabriel en un\nartefact legendaire."
 }
 {
     "function":0,
@@ -149,7 +149,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Ce pouvoir lui permet de retenir Gabriel\nsous une forme inanimée, rendant\ntoute tentative de sauvetage\nextremement dangereuse."
+    "string":"Ce pouvoir lui permet de retenir\nGabriel sous une forme inanimee,\nrendant toute tentative\nde sauvetage extremement dangereuse."
 }
 {
     "function":0,
@@ -158,7 +158,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Gabriel est devenu une clé puissante,\nnecessaire à Zorak pour ouvrir des portails\nvers des mondes obscurs et invoquer\ndes créatures redoutables."
+    "string":"Gabriel est devenu une clef\npuissante, necessaire à Zorak pour ouvrir\ndes portails vers des mondes obscurs\net invoquer des monstres redoutables."
 }
 {
     "function":0,
@@ -176,7 +176,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Les rumeurs disent que Zorak cache l'artefact dans\nles profondeurs des mines abandonnées, au cœur de son repaire."
+    "string":"Les rumeurs disent que Zorak\ncache l'artefact dans\nles profondeurs des\nmines abandonnées,\nau cœur de son repaire."
 }
 {
     "function":0,
@@ -185,7 +185,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Mais il ne sera pas facile de s'y rendre.\nLes créatures des ténèbres et les pièges\nmagiques gardent le chemin"
+    "string":"Mais il ne sera pas facile de s'y\nrendre.\nLes creatures des tenebres et\nles pieges magiques gardent\nle chemin"
 }
 {
     "function":0,
@@ -194,7 +194,7 @@
         "top_rect":77,
         "left_rect":182
     },
-    "string":"Je n'ai pas peur !\nJ'aime Gabriel et je ferai tout pour\nle sauver de Zorak."
+    "string":"Je n'ai pas peur !\nJ'aime Gabriel de tout mon coeur\net je ferai tout pour le sauver de Zorak."
 }
 {
     "function":0,
@@ -203,7 +203,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Sois prudent ! Zorak est plus puissant que jamais.\nTu devras trouver des armes et des objets enchantés\npour avoir une chance contre lui."
+    "string":"Sois prudent ! Zorak est plus puissant\nque jamais. Tu devras trouver\ndes armes et des objets enchantes\npour avoir une chance contre lui."
 }
 {
     "function":0,
@@ -212,7 +212,7 @@
         "top_rect":77,
         "left_rect":182
     },
-    "string":" Ne t'inquiète pas ! Je me préparerai et je reviendrai avec Gabriel.\nNous avons déjà affronté des épreuves ensemble,\net celle-ci ne sera pas différente."
+    "string":"Ne t'inquiete pas ! Je me preparerai et\nje reviendrai avec Gabriel.\nNous avons deja affronte des\nepreuves ensemble,\net celle-ci ne sera pas différente."
 }
 {
     "function":0,
@@ -221,7 +221,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Que les anciens dieux te protègent,\nmon fils. Va, et ramène Gabriel\nchez nous."
+    "string":"Que les anciens dieux te guident.\nVa, et ramène Gabriel chez nous."
 }
 {
     "function":1,
