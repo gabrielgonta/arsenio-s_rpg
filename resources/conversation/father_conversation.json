@@ -77,7 +77,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Zorak est un assassin dangereux\net redoutable.\nJadis, il fut un membre\nde notre village."
+    "string":"Zorak est un assassin dangereux\net redoutable. Jadis, il fut\nun membre de notre village."
 }
 {
     "function":0,
@@ -86,7 +86,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Un homme habile et courageux.\nMais il fut corrompu par\nla soif de pouvoir et de richesse."
+    "string":"Un homme habile et courageux.\nMais il fut corrompu par la\nsoif de pouvoir et de richesse."
 }
 {
     "function":0,
@@ -158,7 +158,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Gabriel est devenu une clef\npuissante, necessaire a Zorak\npour ouvrir des portails vers des\nmondes obscurs et\ninvoquer des monstres redoutables."
+    "string":"Gabriel est devenu une clef\npuissante, necessaire a Zorak\npour ouvrir des portails vers des\nmondes obscurs et invoquer\ndes monstres redoutables."
 }
 {
     "function":0,
@@ -176,7 +176,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Les rumeurs disent que Zorak\ncache l'artefact dans les\nprofondeurs des mines\nabandonnees,\nau coeur de son repaire."
+    "string":"Les rumeurs disent que Zorak\ncache l'artefact dans les\nprofondeurs des mines\nabandonnees, au coeur\nde son repaire."
 }
 {
     "function":0,
@@ -185,7 +185,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Mais il ne sera pas facile de s'y\nrendre.\nLes creatures des tenebres et\nles pieges magiques gardent\nle chemin"
+    "string":"Mais il ne sera pas facile de s'y\nrendre.cLes creatures des\ntenebres et les pieges magiques\ngardent le chemin"
 }
 {
     "function":0,
@@ -203,7 +203,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Sois prudent ! Zorak est plus\npuissant que jamais. Tu devras\ntrouver des armes et des\nobjets enchantes pour avoir\n une chance contre lui."
+    "string":"Sois prudent ! Zorak est plus\npuissant que jamais. Tu devras\ntrouver des armes et des objets\nenchantes pour avoir une\nchance contre lui."
 }
 {
     "function":0,
@@ -212,7 +212,7 @@
         "top_rect":77,
         "left_rect":182
     },
-    "string":"Ne t'inquiete pas ! Je me\npreparerai et je reviendrai\navec Gabriel. Nous avons deja\naffronte des epreuves ensemble,\net celle-ci ne sera pas différente."
+    "string":"Ne t'inquiete pas ! Je me\npreparerai et je reviendrai avec\nGabriel. Nous avons deja\naffronte des epreuves ensemble,\net celle-ci ne sera pas differente."
 }
 {
     "function":0,

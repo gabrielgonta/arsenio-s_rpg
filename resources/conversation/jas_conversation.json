@@ -95,7 +95,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Oui. Ils ont parle de pièges\net de creatures qui\ngardent l'entree.\nZorak protege l'artefacte"
+    "string":"Oui. Ils ont parle de pieges et\nde creatures qui gardent l'entree.\nZorak protege l'artefacte"
 }
 {
     "function":0,
@@ -113,7 +113,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Gabriel etait gentil avec moi.\nIl m'aidait toujours a ramasser des\nfleurs et a me raconter des\nhistoires. Je veux qu'il revienne."
+    "string":"Gabriel etait gentil avec moi.\nIl m'aidait toujours a ramasser\ndes fleurs et a me raconter des\nhistoires. Je veux qu'il revienne."
 }
 {
     "function":0,
@@ -131,7 +131,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Toi aussi.\nEt fais attention a Zorak.\nIl est vraiment mechant."
+    "string":"Toi aussi !\nEt fais attention a Zorak.\nIl est vraiment mechant."
 }
 {
     "function":0,
