@@ -140,7 +140,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Zorak s'est servi d'une magie\nancienne pour transformer Gabriel en un\nartefact legendaire."
+    "string":"Zorak s'est servi d'une magie\nancienne pour transformer\nGabriel en un artefact\nlegendaire."
 }
 {
     "function":0,
@@ -149,7 +149,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Ce pouvoir lui permet de retenir\nGabriel sous une forme inanimee,\nrendant toute tentative\nde sauvetage extremement dangereuse."
+    "string":"Ce pouvoir lui permet de retenir\nGabriel sous une forme inanimee,\nrendant toute tentative\nde sauvetage extremement\ndangereuse."
 }
 {
     "function":0,
@@ -158,7 +158,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Gabriel est devenu une clef\npuissante, necessaire à Zorak pour ouvrir\ndes portails vers des mondes obscurs\net invoquer des monstres redoutables."
+    "string":"Gabriel est devenu une clef\npuissante, necessaire a Zorak\npour ouvrir des portails vers des\nmondes obscurs et\ninvoquer des monstres redoutables."
 }
 {
     "function":0,
@@ -176,7 +176,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Les rumeurs disent que Zorak\ncache l'artefact dans\nles profondeurs des\nmines abandonnées,\nau cœur de son repaire."
+    "string":"Les rumeurs disent que Zorak\ncache l'artefact dans les\nprofondeurs des mines\nabandonnees,\nau coeur de son repaire."
 }
 {
     "function":0,
@@ -194,7 +194,7 @@
         "top_rect":77,
         "left_rect":182
     },
-    "string":"Je n'ai pas peur !\nJ'aime Gabriel de tout mon coeur\net je ferai tout pour le sauver de Zorak."
+    "string":"Je n'ai pas peur !\nJ'aime Gabriel de tout mon coeur\net je ferai tout pour le sauver de\nZorak."
 }
 {
     "function":0,
@@ -203,7 +203,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Sois prudent ! Zorak est plus puissant\nque jamais. Tu devras trouver\ndes armes et des objets enchantes\npour avoir une chance contre lui."
+    "string":"Sois prudent ! Zorak est plus\npuissant que jamais. Tu devras\ntrouver des armes et des\nobjets enchantes pour avoir\n une chance contre lui."
 }
 {
     "function":0,
@@ -212,7 +212,7 @@
         "top_rect":77,
         "left_rect":182
     },
-    "string":"Ne t'inquiete pas ! Je me preparerai et\nje reviendrai avec Gabriel.\nNous avons deja affronte des\nepreuves ensemble,\net celle-ci ne sera pas différente."
+    "string":"Ne t'inquiete pas ! Je me\npreparerai et je reviendrai\navec Gabriel. Nous avons deja\naffronte des epreuves ensemble,\net celle-ci ne sera pas différente."
 }
 {
     "function":0,
@@ -221,7 +221,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Que les anciens dieux te guident.\nVa, et ramène Gabriel chez nous."
+    "string":"Que les anciens dieux te guident.\nVa, et ramene Gabriel chez nous."
 }
 {
     "function":1,
