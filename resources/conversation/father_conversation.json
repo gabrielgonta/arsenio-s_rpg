@@ -14,7 +14,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Nous devons parler !\nC'est... C'est a\npropos de...."
+    "string":"Nous devons parler ! C'est...\nC'est a propos de...."
 }
 {
     "function":0,
@@ -32,7 +32,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"C'est...\na propos de Gabriel...\nIl a disparu !!"
+    "string":"C'est... Gabriel...\nIl a disparu !!"
 }
 {
     "function":0,
@@ -41,7 +41,7 @@
         "top_rect":77,
         "left_rect":182
     },
-    "string":"QUOI ?! Comment ça,\ndisparu ? Où est-il ?!"
+    "string":"QUOI ?! Comment,\ndisparu ? Ou est-il ?!"
 }
 {
     "function":0,
@@ -50,7 +50,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Gabriel a été capturé par..."
+    "string":"Gabriel a ete capture par..."
 }
 {
     "function":0,
@@ -77,7 +77,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Zorak est un assassin dangereux\net redouté.\nJadis, il était un membre respecté\nde notre communauté."
+    "string":"Zorak est un assassin dangereux\net redoutable.\nJadis, il fut un membre\nde notre communauté."
 }
 {
     "function":0,
@@ -86,7 +86,7 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Un homme doué,\nhabile et courageux.\nMais il a été corrompu par\nla soif de pouvoir et de richesse."
+    "string":"Un homme habile et courageux.\nMais il fut corrompu par\nla soif de pouvoir et de richesse."
 }
 {
     "function":0,
@@ -95,7 +95,133 @@
         "top_rect":1,
         "left_rect":107
     },
-    "string":"Lors d'une expédition dans\nles profondeurs des mines,\nil a découvert une ancienne magie\nnoire qui a déformé son âme."
+    "string":"Lors d'une expedition dans\nles profondeurs des mines,\nil a decouvert une ancienne magie\nnoire qui a déforme son ame."
+}
+{
+    "function":0,
+    "speaker":"player",
+    "face": {
+        "top_rect":77,
+        "left_rect":182
+    },
+    "string":"Comment un homme peut-il tombercsi bas ?"
+}
+{
+    "function":0,
+    "speaker":"npc",
+    "face": {
+        "top_rect":1,
+        "left_rect":107
+    },
+    "string":"Zorak commence a utiliser cette\nmagie pour ses propres fins,\ntuant ceux qui s'opposaient à\nlui et pillant les trésors enfouis dans les mines."
+}
+{
+    "function":0,
+    "speaker":"npc",
+    "face": {
+        "top_rect":1,
+        "left_rect":107
+    },
+    "string":"Il a fini par devenir une légende,\nune ombre mortelle que personne n'ose\naffronter."
+}
+{
+    "function":0,
+    "speaker":"player",
+    "face": {
+        "top_rect":77,
+        "left_rect":182
+    },
+    "string":"Et Gabriel ?\nQu'est-ce que Zorak lui a fait ?"
+}
+{
+    "function":0,
+    "speaker":"npc",
+    "face": {
+        "top_rect":1,
+        "left_rect":107
+    },
+    "string":"Zorak a utilise une magie ancienne pour\ntransformer Gabriel en un artefact legendaire."
+}
+{
+    "function":0,
+    "speaker":"npc",
+    "face": {
+        "top_rect":1,
+        "left_rect":107
+    },
+    "string":"Ce pouvoir lui permet de retenir Gabriel\nsous une forme inanimée, rendant\ntoute tentative de sauvetage\nextremement dangereuse."
+}
+{
+    "function":0,
+    "speaker":"npc",
+    "face": {
+        "top_rect":1,
+        "left_rect":107
+    },
+    "string":"Gabriel est devenu une clé puissante,\nnecessaire à Zorak pour ouvrir des portails\nvers des mondes obscurs et invoquer\ndes créatures redoutables."
+}
+{
+    "function":0,
+    "speaker":"player",
+    "face": {
+        "top_rect":77,
+        "left_rect":182
+    },
+    "string":"Alors, je dois sauver Gabriel.\nOu se trouve cet artefact ?"
+}
+{
+    "function":0,
+    "speaker":"npc",
+    "face": {
+        "top_rect":1,
+        "left_rect":107
+    },
+    "string":"Les rumeurs disent que Zorak cache l'artefact dans\nles profondeurs des mines abandonnées, au cœur de son repaire."
+}
+{
+    "function":0,
+    "speaker":"npc",
+    "face": {
+        "top_rect":1,
+        "left_rect":107
+    },
+    "string":"Mais il ne sera pas facile de s'y rendre.\nLes créatures des ténèbres et les pièges\nmagiques gardent le chemin"
+}
+{
+    "function":0,
+    "speaker":"player",
+    "face": {
+        "top_rect":77,
+        "left_rect":182
+    },
+    "string":"Je n'ai pas peur !\nJ'aime Gabriel et je ferai tout pour\nle sauver de Zorak."
+}
+{
+    "function":0,
+    "speaker":"npc",
+    "face": {
+        "top_rect":1,
+        "left_rect":107
+    },
+    "string":"Sois prudent ! Zorak est plus puissant que jamais.\nTu devras trouver des armes et des objets enchantés\npour avoir une chance contre lui."
+}
+{
+    "function":0,
+    "speaker":"player",
+    "face": {
+        "top_rect":77,
+        "left_rect":182
+    },
+    "string":" Ne t'inquiète pas ! Je me préparerai et je reviendrai avec Gabriel.\nNous avons déjà affronté des épreuves ensemble,\net celle-ci ne sera pas différente."
+}
+{
+    "function":0,
+    "speaker":"npc",
+    "face": {
+        "top_rect":1,
+        "left_rect":107
+    },
+    "string":"Que les anciens dieux te protègent,\nmon fils. Va, et ramène Gabriel\nchez nous."
 }
 {
     "function":1,
