@@ -39,7 +39,7 @@
             "stackable" : false,
             "id_function" : 6,
             "sprite" : "./assets/items/sword.png",
-            "description": "Une lame de valeur qui semble assez tranchante pour tuer quelqu'un. vous devriez faire attention lorsque vous l'utilisez.",
+            "description": "Une lame de valeur qui semble assez tranchante pour tuer quelqu'un",
             "damage" : 15,
             "armor" : 0,
             "rarete": 1
@@ -50,7 +50,7 @@
             "stackable" : false,
             "id_function" : 6,
             "sprite" : "./assets/items/legendary_sword.png",
-            "description": "Une lame des plus prestigieuses, elle a le pouvoir de trancher des montagnes.",
+            "description": "Une lame legendaire, elle a le pouvoir de trancher des montagnes.",
             "damage" : 25,
             "armor" : 0,
             "rarete": 1
@@ -61,7 +61,7 @@
             "stackable" : false,
             "id_function" : 2,
             "sprite" : "./assets/items/leather_boots.png",
-            "description": "Des bottes pas très confortables, mais c'est mieux que rien ...",
+            "description": "Des bottes pas tres confortables, mais c'est mieux que rien ...",
             "damage" : 0,
             "armor" : 2,
             "rarete": 1
@@ -83,7 +83,7 @@
             "stackable" : false,
             "id_function" : 4,
             "sprite" : "./assets/items/leather_chestplate.png",
-            "description": "c'est giga cringe, next.",
+            "description": "On dirait une veste bizarre nul.",
             "damage" : 0,
             "armor" : 12,
             "rarete": 1
@@ -105,7 +105,7 @@
             "stackable" : false,
             "id_function" : 2,
             "sprite" : "./assets/items/iron_boots.png",
-            "description": "Elle détruisent les pieds plus qu'elles les protegent.",
+            "description": "Elle detruisent les pieds plus qu'elles les protegent.",
             "damage" : 0,
             "armor" : 9,
             "rarete": 2
@@ -149,7 +149,7 @@
             "stackable" : false,
             "id_function" : 2,
             "sprite" : "./assets/items/gold_boots.png",
-            "description": "Les bottes divines, permettent de courrir Tah Lewandoski.",
+            "description": "Les bottes divines, permettent de courrir tres vite",
             "damage" : 0,
             "armor" : 15,
             "rarete": 3
@@ -160,7 +160,7 @@
             "stackable" : false,
             "id_function" : 3,
             "sprite" : "./assets/items/gold_leggings.png",
-            "description": "Pantalon charismatique, il attire la gente opposé.",
+            "description": "Pantalon charismatique en plus d'etre resistant",
             "damage" : 0,
             "armor" : 25,
             "rarete": 3
@@ -171,7 +171,7 @@
             "stackable" : false,
             "id_function" : 4,
             "sprite" : "./assets/items/gold_chestplate.png",
-            "description": "Plastron pour les Z'hommes.",
+            "description": "Plastron vraiment resistant",
             "damage" : 0,
             "armor" : 35,
             "rarete": 3
@@ -182,7 +182,7 @@
             "stackable" : false,
             "id_function":5,
             "sprite":"./assets/items/gold_helmet.png",
-            "description":"Insensible aux balles, S/O la NRA !",
+            "description":"Insensible aux balles et aux armes ",
             "damage" : 0,
             "armor" : 20,
             "rarete": 3
@@ -193,7 +193,7 @@
             "stackable" : false,
             "id_function":5,
             "sprite":"./assets/items/artefact.png",
-            "description":"L'artefact des dieux, elle vous rendra surpuissant.",
+            "description":"L'artefact contenant l'ame de Gabriel",
             "damage" : 0,
             "armor" : 50,
             "rarete": 3
