@@ -103,8 +103,6 @@ static const npc_switch_t GLOBAL_NPC[] = {
     {MAIRIE, NPC"lewis.json"},
     {HOUSE_4, NPC"clint.json"},
     {FIRST_VILLAGE, NPC"jas.json"},
-    {FIRST_VILLAGE, NPC"wizard.json"},
-    {FIRST_VILLAGE, NPC"pierre.json"},
     {NULL, NULL}
 };
 
