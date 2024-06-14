@@ -103,6 +103,8 @@ static const npc_switch_t GLOBAL_NPC[] = {
     {MAIRIE, NPC"lewis.json"},
     {HOUSE_4, NPC"clint.json"},
     {FIRST_VILLAGE, NPC"jas.json"},
+    {FIRST_VILLAGE, NPC"wizard.json"},
+    {FIRST_VILLAGE, NPC"pierre.json"},
     {NULL, NULL}
 };
 
@@ -113,8 +115,11 @@ typedef struct music_switch_s {
 
 static const music_switch_t GLOBAL_MUSIC[] = {
     {FIRST_VILLAGE, "./assets/village.ogg"},
-    {"./resources/maps/the_deep_cave.json", "./assets/mines.ogg"},
-    {"resources/maps/infirmary.json", "./assets/village.ogg"},
+    {"./resources/maps/the_cave.json", "./assets/mines.ogg"},
+    {"./resources/maps/the_deep_cave.json", "./assets/the_deep_cave.ogg"},
+    {"./resources/maps/infirmary.json", "./assets/village.ogg"},
+    {"./resources/maps/lava_cave.json", "./assets/lava_cave.ogg"},
+    {"./resources/maps/Mairie.json", "./assets/mairie.ogg"},
     {NULL, NULL}
 };
 

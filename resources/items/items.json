@@ -28,7 +28,7 @@
             "stackable" : false,
             "id_function" : 6,
             "sprite" : "./assets/items/bat.png",
-            "description": "Une arme par défault ...",
+            "description": "Une arme par default ...",
             "damage" : 7,
             "armor" : 0,
             "rarete": 1
@@ -83,7 +83,7 @@
             "stackable" : false,
             "id_function" : 4,
             "sprite" : "./assets/items/leather_chestplate.png",
-            "description": "On dirait une veste bizarre nul.",
+            "description": "Une armure style mais peu resistante",
             "damage" : 0,
             "armor" : 12,
             "rarete": 1
@@ -94,7 +94,7 @@
             "stackable" : false,
             "id_function" : 5,
             "sprite" : "./assets/items/leather_helmet.png",
-            "description": "Pas ouf, mais mieux qu'une casquette WATI-B",
+            "description": "Style comme casque et assez resistant",
             "damage" : 0,
             "armor" : 5,
             "rarete": 1
