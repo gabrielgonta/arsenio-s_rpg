@@ -1,6 +1,6 @@
 {
     "name":"Une mission impossible.",
-    "description":"Decouvrez et terassez le secret des grottes.",
+    "description":"Decouvrez et terassez le secret des mines.",
     "value":"main_quest",
     "awards": [
         {
@@ -87,7 +87,7 @@
             ],
             "objective": [
                 {
-                    "name":"Retrouvez et battez le demon des profondeurs.",
+                    "name":"Retrouvez et tuez Zorak",
                     "nb":1
                 }
             ]

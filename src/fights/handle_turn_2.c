@@ -17,7 +17,7 @@ void check_duel_ennemy(head_t *head, fight_t *fight)
     quest->step[quest->current_step]->id == 3) {
         add_to_quest(head->scenes->in_game->quests,
         "Une mission impossible.",
-        "Retrouvez et battez le demon des profondeurs.", 1);
+        "Retrouvez et tuez Zorak", 1);
         head->scenes->in_game->boss = 1;
         head->scenes->in_game->opened_chest[4] = 1;
     }
