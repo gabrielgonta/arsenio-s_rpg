@@ -1,20 +1,11 @@
 {
     "function":0,
-    "speaker":"player",
-    "face": {
-        "top_rect":77,
-        "left_rect":182
-    },
-    "string":"Monsieur le Maire,\nje viens vous parler de Gabriel\net de Zorak."
-}
-{
-    "function":0,
     "speaker":"npc",
     "face": {
         "top_rect":1,
         "left_rect":106
     },
-    "string":"Oui, j'ai entendu.\nGabriel est une grande perte.\nZorak est une menace sérieuse."
+    "string":"Bien le bonjour citoyen.\nVous faut-il quelque chose ?\n"
 }
 {
     "function":0,
@@ -23,7 +14,7 @@
         "top_rect":77,
         "left_rect":182
     },
-    "string":"Jas m'a dit que Zorak se\ncache dans une mine a l'ouest.\nPouvez-vous m'en dire plus ?"
+    "string":"Non, je viens juste dire bonjour.\n Bonne journee !"
 }
 {
     "function":0,
@@ -32,16 +23,7 @@
         "top_rect":1,
         "left_rect":106
     },
-    "string":"La mine de l'ouest est très dangereuse,\npleine de créatures et de pièges anciens.\nZorak l'a choisie pour ces raisons."
-}
-{
-    "function":0,
-    "speaker":"player",
-    "face": {
-        "top_rect":77,
-        "left_rect":182
-    },
-    "string":"D'accord, merci monsieur\nle maire !"
+    "string":"Bonne journee a vous aussi !"
 }
 {
     "function":0,
@@ -50,6 +32,6 @@
         "top_rect":1,
         "left_rect":106
     },
-    "string":"Prends soins de toi !"
+    "string":"(t'es vrm craquant)"
 }
 
