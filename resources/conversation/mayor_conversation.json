@@ -14,7 +14,7 @@
         "top_rect":77,
         "left_rect":182
     },
-    "string":"Oui, monsieur le Maire.\nJe suis déterminé à le sauver.\nJas m'a dit que Zorak se cache\ndans une mine à l'ouest.\nPouvez-vous m'en dire plus ?"
+    "string":"Oui, monsieur le Maire.\nJe suis determine a le sauver.\nJas m'a dit que Zorak se cache\ndans une mine a l'ouest.\nPouvez-vous m'en dire plus ?"
 }
 {
     "function":0,
@@ -23,7 +23,7 @@
         "top_rect":1,
         "left_rect":106
     },
-    "string":"La mine de l'ouest est dangereuse et\nremplie de pièges.\nZorak l'a choisie pour son isolement."
+    "string":"La mine de l'ouest est\ndangereuse et remplie de pièges.\nZorak l'a choisie pour son\nisolement."
 }
 {
     "function":0,

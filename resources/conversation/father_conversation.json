@@ -224,6 +224,15 @@
     "string":"Que les anciens dieux te guident.\nVa, et ramene Gabriel chez nous."
 }
 {
+    "function":0,
+    "speaker":"npc",
+    "face": {
+        "top_rect":1,
+        "left_rect":107
+    },
+    "string":"Equipe ton arme qui se\ntrouve dans ton inventaire et\ncommence ta quete !"
+}
+{
     "function":1,
     "function_id":1
 }
