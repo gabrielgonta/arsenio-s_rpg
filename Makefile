@@ -211,11 +211,10 @@ NAME_WIN := my_rpg.exe
 windows: $(NAME_WIN)
 
 $(NAME_WIN): $(OBJ_WIN)
-    $(CC_WIN) $(OBJ_WIN) -o $(NAME_WIN) $(CFLAGS_WIN)
-
-# Rules for object files
+	$(CC_WIN) $(OBJ_WIN) -o $(NAME_WIN) $(CFLAGS_WIN)
+	
 %.win.o: %.c
-    $(CC_WIN) $(CFLAGS_WIN) -c $< -o $@
+	$(CC_WIN) $(CFLAGS_WIN) -c $< -o $@
 
 SRC_DIR	= src/
 
