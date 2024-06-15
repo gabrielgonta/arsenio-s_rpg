@@ -198,6 +198,24 @@ SRC_FILES	=	main.c	\
 				fights/handle_turn_2.c \
 				worlds/quests/callback/quest_event.c
 
+CC_WIN := x86_64-w64-mingw32-gcc
+CFLAGS_WIN := -I./includes/ -L./src/lib/my/ -lmy -Wall -lcsfml-graphics -lcsfml-system -lcsfml-window -lcsfml-audio -lm
+
+# Object files for Windows compilation
+OBJ_WIN := $(SRC:.c=.win.o)
+
+# Executable name for Windows
+NAME_WIN := my_rpg.exe
+
+# Target to compile for Windows
+windows: $(NAME_WIN)
+
+$(NAME_WIN): $(OBJ_WIN)
+    $(CC_WIN) $(OBJ_WIN) -o $(NAME_WIN) $(CFLAGS_WIN)
+
+# Rules for object files
+%.win.o: %.c
+    $(CC_WIN) $(CFLAGS_WIN) -c $< -o $@
 
 SRC_DIR	= src/
 
