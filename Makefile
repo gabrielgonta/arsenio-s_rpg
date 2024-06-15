@@ -5,8 +5,6 @@
 ## Makefile
 ##
 
-CC = x86_64-w64-mingw32-gcc
-
 SRC_FILES	=	main.c	\
 				main_window.c \
 				loader/main_loader.c \
@@ -200,44 +198,32 @@ SRC_FILES	=	main.c	\
 				fights/handle_turn_2.c \
 				worlds/quests/callback/quest_event.c
 
-SRC_DIR = src/
-INCLUDE_DIR = includes/
-LIB_DIR = ./src/lib/my/
 
-# Object files
-OBJ = $(SRC_FILES:%.c=$(SRC_DIR)%.o)
+SRC_DIR	= src/
 
-# Executable name
-NAME = my_rpg
+SRC		=	$(foreach file, $(SRC_FILES), $(addprefix $(SRC_DIR), $(file)))
 
-# Compiler flags for both Linux and Windows (SFML libraries assumed to be correctly set up)
-CFLAGS = -I$(INCLUDE_DIR) -L$(LIB_DIR) -lmy -Wall -lcsfml-graphics -lcsfml-system -lcsfml-window -lcsfml-audio -lm
+OBJ		=	$(SRC:.c=.o)
 
-# Default target
-all: $(NAME)
-	@echo "Build successful!"
+NAME	=	my_rpg
 
-# Linux build
-$(NAME): $(OBJ)
-	@make -C $(LIB_DIR)
+CFLAGS	=	-I./includes/ -L./src/lib/my/ -lmy -g3 -Wall -l csfml-graphics -l csfml-system -l csfml-window -l csfml-audio -lm
+
+all:	$(NAME)
+	@echo "Build succesfull!"
+
+$(NAME):  $(OBJ)
+	@make -C ./src/lib/my
 	@gcc $(OBJ) -o $(NAME) $(CFLAGS)
 
-# Windows cross-compilation
-windows: $(OBJ)
-	@$(CC) $(OBJ) -o $(NAME).exe $(CFLAGS)
-
-# Clean object files
 clean:
-	@make -C $(LIB_DIR) clean
+	@make -C ./src/lib/my clean
 	@rm -f $(OBJ)
 
-# Clean everything
-fclean: clean
-	@make -C $(LIB_DIR) fclean
-	@rm -f $(NAME) $(NAME).exe
+fclean:	clean
+	@make -C ./src/lib/my fclean
+	@rm -f $(NAME)
 
-# Rebuild
-re: fclean all
+re:	fclean $(NAME)
 
-# Phony targets
-.PHONY: all clean fclean re windows
+.PHONY: all clean fclean re
