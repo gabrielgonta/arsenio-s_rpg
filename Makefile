@@ -5,6 +5,8 @@
 ## Makefile
 ##
 
+CC = x86_64-w64-mingw32-gcc
+
 SRC_FILES	=	main.c	\
 				main_window.c \
 				loader/main_loader.c \
@@ -198,49 +200,44 @@ SRC_FILES	=	main.c	\
 				fights/handle_turn_2.c \
 				worlds/quests/callback/quest_event.c
 
-CC_WIN := x86_64-w64-mingw32-gcc
-CFLAGS_WIN := -I./includes/ -L./src/lib/my/ -lmy -Wall -lcsfml-graphics -lcsfml-system -lcsfml-window -lcsfml-audio -lm
+SRC_DIR = src/
+INCLUDE_DIR = includes/
+LIB_DIR = ./src/lib/my/
 
-# Object files for Windows compilation
-OBJ_WIN := $(SRC:.c=.win.o)
+# Object files
+OBJ = $(SRC_FILES:%.c=$(SRC_DIR)%.o)
 
-# Executable name for Windows
-NAME_WIN := my_rpg.exe
+# Executable name
+NAME = my_rpg
 
-# Target to compile for Windows
-windows: $(NAME_WIN)
+# Compiler flags for both Linux and Windows (SFML libraries assumed to be correctly set up)
+CFLAGS = -I$(INCLUDE_DIR) -L$(LIB_DIR) -lmy -Wall -lcsfml-graphics -lcsfml-system -lcsfml-window -lcsfml-audio -lm
 
-$(NAME_WIN): $(OBJ_WIN)
-	$(CC_WIN) $(OBJ_WIN) -o $(NAME_WIN) $(CFLAGS_WIN)
-	
-%.win.o: %.c
-	$(CC_WIN) $(CFLAGS_WIN) -c $< -o $@
+# Default target
+all: $(NAME)
+	@echo "Build successful!"
 
-SRC_DIR	= src/
-
-SRC		=	$(foreach file, $(SRC_FILES), $(addprefix $(SRC_DIR), $(file)))
-
-OBJ		=	$(SRC:.c=.o)
-
-NAME	=	my_rpg
-
-CFLAGS	=	-I./includes/ -L./src/lib/my/ -lmy -g3 -Wall -l csfml-graphics -l csfml-system -l csfml-window -l csfml-audio -lm
-
-all:	$(NAME)
-	@echo "Build succesfull!"
-
-$(NAME):  $(OBJ)
-	@make -C ./src/lib/my
+# Linux build
+$(NAME): $(OBJ)
+	@make -C $(LIB_DIR)
 	@gcc $(OBJ) -o $(NAME) $(CFLAGS)
 
+# Windows cross-compilation
+windows: $(OBJ)
+	@$(CC) $(OBJ) -o $(NAME).exe $(CFLAGS)
+
+# Clean object files
 clean:
-	@make -C ./src/lib/my clean
+	@make -C $(LIB_DIR) clean
 	@rm -f $(OBJ)
 
-fclean:	clean
-	@make -C ./src/lib/my fclean
-	@rm -f $(NAME)
+# Clean everything
+fclean: clean
+	@make -C $(LIB_DIR) fclean
+	@rm -f $(NAME) $(NAME).exe
 
-re:	fclean $(NAME)
+# Rebuild
+re: fclean all
 
-.PHONY: all clean fclean re
+# Phony targets
+.PHONY: all clean fclean re windows
