@@ -4,7 +4,7 @@
 ## File description:
 ## Makefile
 ##
- 
+
 SRC_FILES	=	main.c	\
 				main_window.c \
 				loader/main_loader.c \
@@ -199,30 +199,31 @@ SRC_FILES	=	main.c	\
 				worlds/quests/callback/quest_event.c
 
 
-SRC_DIR = src/
-SRC = $(foreach file, $(SRC_FILES), $(addprefix $(SRC_DIR), $(file)))
+SRC_DIR	= src/
 
-OBJ = $(SRC:.c=.o)
+SRC		=	$(foreach file, $(SRC_FILES), $(addprefix $(SRC_DIR), $(file)))
 
-NAME = my_rpg.exe   
+OBJ		=	$(SRC:.c=.o)
 
-CFLAGS = -g -I./includes/ -L./src/lib/my/ -L./CSFML/lib/gcc/ -lmy -Wall -m64 -lcsfml-graphics -lcsfml-system -lcsfml-window -lcsfml-audio -lm
+NAME	=	my_rpg
 
-all: $(NAME)
-	@echo "Compilation réussie !"
+CFLAGS	=	-I./includes/ -L./src/lib/my/ -lmy -g3 -Wall -l csfml-graphics -l csfml-system -l csfml-window -l csfml-audio -lm
 
-$(NAME): $(OBJ)
+all:	$(NAME)
+	@echo "Build succesfull!"
+
+$(NAME):  $(OBJ)
 	@make -C ./src/lib/my
-	x86_64-w64-mingw32-gcc $(OBJ) -o $(NAME) $(CFLAGS)
+	@gcc $(OBJ) -o $(NAME) $(CFLAGS)
 
 clean:
 	@make -C ./src/lib/my clean
 	@rm -f $(OBJ)
 
-fclean: clean
+fclean:	clean
 	@make -C ./src/lib/my fclean
 	@rm -f $(NAME)
 
-re: fclean all
+re:	fclean $(NAME)
 
 .PHONY: all clean fclean re
