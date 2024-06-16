@@ -7,7 +7,7 @@
 
 CC = x86_64-w64-mingw32-gcc
 
-CFLAGS = -I./includes/ -L./src/lib/my/ -lmy -g3 -Wall -static-libgcc -static-libstdc++ -lcsfml-graphics -lcsfml-system -lcsfml-window -lcsfml-audio -lm
+CFLAGS = -I./includes/ -L./src/lib/my/ -lmy -g3 -Wall -l csfml-graphics -l csfml-system -l csfml-window -l csfml-audio -lm
 
 SRC_FILES	=	main.c	\
 				main_window.c \
