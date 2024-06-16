@@ -206,19 +206,19 @@ NAME = my_rpg.exe
 CFLAGS = -I./includes/ -L./src/lib/my/ -lmy -g3 -Wall -lcsfml-graphics -lcsfml-window -lcsfml-system -lcsfml-audio -lm
 
 all: $(NAME)
-    @echo "Build successful!"
+	@echo "Build successful!"
 
 $(NAME): $(OBJ)
-    @make -C ./src/lib/my
-    @gcc $(OBJ) -o $(NAME) $(CFLAGS)
+	@make -C ./src/lib/my
+	@gcc $(OBJ) -o $(NAME) $(CFLAGS)
 
 clean:
-    @make -C ./src/lib/my clean
-    @rm -f $(OBJ)
+	@make -C ./src/lib/my clean
+	@rm -f $(OBJ)
 
 fclean: clean
-    @make -C ./src/lib/my fclean
-    @rm -f $(NAME)
+	@make -C ./src/lib/my fclean
+	@rm -f $(NAME)
 
 re: fclean all
 
