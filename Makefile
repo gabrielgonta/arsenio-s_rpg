@@ -206,7 +206,7 @@ OBJ = $(SRC:.c=.o)
 
 NAME = my_rpg.exe   
 
-CFLAGS = -I./includes/ -L./src/lib/my/ -L./CSFML/lib/gcc/ -lmy -Wall -m64 -lcsfml-graphics -lcsfml-system -lcsfml-window -lcsfml-audio -lm
+CFLAGS = -g -I./includes/ -L./src/lib/my/ -L./CSFML/lib/gcc/ -lmy -Wall -m64 -lcsfml-graphics -lcsfml-system -lcsfml-window -lcsfml-audio -lm
 
 all: $(NAME)
 	@echo "Compilation réussie !"
