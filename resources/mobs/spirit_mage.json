@@ -1,7 +1,7 @@
 {
     "name":"spirit",
     "sprite":"./assets/spirit_mage.png",
-    "health":1,
+    "health":95,
     "damage":15,
     "armor":12,
     "level":2,

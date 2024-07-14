@@ -1,7 +1,7 @@
 {
     "name":"devil",
     "sprite":"./assets/devil.png",
-    "health":1,
+    "health":150,
     "damage":35,
     "armor":25,
     "level":2,
