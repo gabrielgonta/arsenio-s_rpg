@@ -205,7 +205,7 @@ SRC		=	$(foreach file, $(SRC_FILES), $(addprefix $(SRC_DIR), $(file)))
 
 OBJ		=	$(SRC:.c=.o)
 
-NAME	=	my_rpg
+NAME	=	realm_of_love
 
 CFLAGS	=	-I./includes/ -L./src/lib/my/ -lmy -g3 -Wall -l csfml-graphics -l csfml-system -l csfml-window -l csfml-audio -lm
 
